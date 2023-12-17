@@ -1,0 +1,102 @@
+.carousel-1-container{
+    display: flex;
+    justify-content: space-around;
+}
+.carousel-1-container>img{
+    height: 40%;
+    width: 37%;
+    margin-left: 200px;
+    /* margin-right: auto; */
+
+}
+
+.carousel-text-content-1{
+    line-height: 50px;
+   
+    
+}
+.first-text{
+    color: #FFF;
+
+font-family: Helvetica;
+font-size: 37.17px;
+font-style: normal;
+font-weight: 700;
+}
+.second-text{
+    color: #FFF;
+
+font-family: Helvetica;
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+}
+.third-text{
+    color: #FFF;
+
+    font-family: Helvetica;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    width: 70%;
+}
+.enterprises{
+    color: #ED1D2B;
+
+}
+.enquiry-button{
+height: 45px;
+width: 200px;
+border: none;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #ED1D2B;
+color: white;
+border-radius: 54px;
+}
+
+@media screen and (max-width:900px) {
+    .carousel-1-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: -20%;
+        /* justify-content: space-around; */
+    }
+    .carousel-1-container>img{
+        margin-top: 100px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .carousel-text-content-1{
+        margin-left: 20%;
+        line-height: 30px;
+        /* margin-right: auto; */
+    }
+    .first-text{
+        color: #FFF;
+    
+    
+        font-size: 30px;
+    }
+    .second-text{
+        font-size: 40px;
+    }
+    .third-text{
+        display: none;
+        font-size: 60px;
+        width: 100%;
+        font-weight: 600;
+    }
+    
+}
+@media screen and (max-width:425px) {
+    .carousel-text-content-1{
+        margin-left: 13%;
+        margin-top: 10%;
+        
+    }
+}

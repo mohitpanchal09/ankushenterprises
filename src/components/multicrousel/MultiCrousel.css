@@ -1,0 +1,24 @@
+.testimonial{
+display: flex;
+justify-content: center;
+}
+.inner-testimonial{
+    height: 220px;
+    width: 220px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+}
+.react-multiple-carousel__arrow{
+    background-color: #ED1D2B;
+    z-index: 500;
+}
+.react-multiple-carousel__arrow:hover{
+    background-color: #b20813;
+}
+@media screen and (max-width:483px) {
+    .inner-testimonial{
+        height: 150px;
+        width: 150px;
+       
+    }
+}

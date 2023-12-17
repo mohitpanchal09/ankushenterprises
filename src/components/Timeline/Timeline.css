@@ -1,0 +1,19 @@
+.timeline-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.timeline-container >img{
+    width: 60vw;
+    margin: 10px auto;
+}
+.timeline-container>h1{
+    padding: 25px;
+    font-weight: 600;
+}
+.timeline-container span{
+    color: #ED1D2B;
+}

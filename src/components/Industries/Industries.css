@@ -1,0 +1,124 @@
+.industries-wrapper{
+    background-image: url('https://media.discordapp.net/attachments/1134172030699323465/1185157889271271526/image.png?ex=658e974b&is=657c224b&hm=1c981d7b18d64630f6458180477628f51c1c0b675d6e73761dfed7dbcddc4781&=&format=webp&quality=lossless&width=1536&height=1056');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding-bottom: 50px;
+}
+.industries-wrapper>h1{
+    /* font-size: 48px; */
+    font-weight: 700;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.industries-wrapper>p{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    color: #000;
+    font-size: 18px;
+    /* font-weight: 500; */
+}
+.bg-color{
+    color: #ED1D2B;
+}
+.read-more{
+    width: 155px;
+    height: 35px;
+    border-radius: 9px;
+    margin-top: 10px;
+border: 2px solid #ED1D2B;
+background-color: white;
+color: #666;
+font-weight: 500;
+}
+.carousel-item{
+    
+}
+
+.row {
+    display: flex;
+    
+    flex-wrap: wrap;
+    padding: 0 4px;
+    height: 20%;
+    width: 70vw;
+    margin-left: auto!important;
+    margin-right:  auto !important;
+    
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 33%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    height: fit-content;
+  }
+  .images-grid-wrappper{
+width: 70vw;
+display: flex;
+  }
+  .images-grid-wrappper img{
+    width: 100%;
+    margin: 5px;
+  }
+.column1{
+  flex: 3;
+  margin: 5px;
+}
+.column2{
+  flex: 2;
+  margin: 5px;
+
+}
+.column3{
+  flex: 1.5;
+  margin: 5px;
+
+}
+
+.column2 img{
+  height: 48%;
+}
+.column3 img{
+  height: 100%;
+}
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+    .images-grid-wrappper{
+      width: 90vw;
+      display: flex;
+      flex-wrap: wrap;
+        }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+    
+  }
+  @media screen and (max-width: 576px) {
+    .images-grid-wrappper{
+      
+      flex-direction: column;
+        }
+    
+  }

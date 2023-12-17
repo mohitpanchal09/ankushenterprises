@@ -1,0 +1,23 @@
+.industries-serving-wrapper{
+    margin-top: 100px;
+    text-align: center;
+    
+}
+.industry-text{
+    
+    width: 80vw;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+@media screen and (max-width:425px) {
+    .industry-text{
+       font-size: 13px !important;
+       padding: 0 10px;
+       width: 100%;
+    }
+    .industries-serving-wrapper{
+        margin-top: 80px;
+        
+        
+    }
+}

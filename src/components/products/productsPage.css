@@ -1,0 +1,40 @@
+.products-page-wrapper{
+    margin-top: 100px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: relative;
+}
+.chemical-video-product{
+    transform: rotate(90deg);
+   height: 70vw;
+   width: 40vh;
+   border-radius: 21px;
+   margin-top: -22%;
+}
+.top-marks{
+    margin-left: -60vw;
+    color: gray;
+    /* top: 0; */
+    /* left: 11vw; */
+    font-weight: 300;
+}
+@media screen and (max-width:768px) {
+    
+    .chemical-video-product{
+        transform: rotate(90deg);
+       height: 90vw;
+       width: 60%;
+       margin-top: -10%;
+       
+    }
+    .top-marks{
+        margin-left: -60vw;
+        
+    }
+    .products-page-wrapper{
+        margin-top: 70px;
+  
+    }
+}
