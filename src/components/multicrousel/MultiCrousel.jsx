@@ -1,6 +1,6 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import "./Multicrousel.css";
+import "./MultiCrousel.css";
 import React from "react";
 
 export default function MultiCrousel() {
