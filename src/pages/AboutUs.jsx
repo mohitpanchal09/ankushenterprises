@@ -7,7 +7,7 @@ import { TfiHeadphoneAlt } from "react-icons/tfi";
 import { GrStarOutline } from "react-icons/gr";
 import { HiOutlineShoppingBag } from "react-icons/hi2";
 import { FaTruckFast } from "react-icons/fa6";
-import AboutUsFirst from "../components/aboutusfirst/aboutusfirst";
+import AboutUsFirst from "../components/aboutusfirst/AboutUsFirst";
 export default function AboutUs() {
   return (
     <>
