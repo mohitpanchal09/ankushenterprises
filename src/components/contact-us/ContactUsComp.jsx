@@ -3,7 +3,7 @@ import "./ContactUs.css";
 import { CiLocationOn } from "react-icons/ci";
 import { AiOutlineMail } from "react-icons/ai";
 import { LiaPhoneVolumeSolid } from "react-icons/lia";
-import map from "../../assets/map image.png";
+import map from "../../assets/mapImage.png";
 export default function ContactUsComp() {
   return (
     <div className="contact-us-wrapper">
