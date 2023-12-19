@@ -1,6 +1,6 @@
 import React from "react";
 import "./aboutusfirst.css";
-
+import aboutusfirst from "../../assets/aboutusfirst.png";
 export default function AboutUsFirst() {
   return (
     <div className="about-us-container">
@@ -19,10 +19,7 @@ export default function AboutUsFirst() {
           </p>
         </div>
         <div className="about-us-first-2">
-          <img
-            src="https://media.discordapp.net/attachments/1134172030699323465/1185216136594333750/image.png?ex=658ecd8b&is=657c588b&hm=a8c40309cd4eb1bedb07e84498208703f79f5b7dddc51b667463de9cc984167b&=&format=webp&quality=lossless&width=1538&height=1056"
-            alt=""
-          />
+          <img src={aboutusfirst} alt="" />
         </div>
       </div>
     </div>

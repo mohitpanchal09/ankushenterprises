@@ -1,5 +1,5 @@
 .industries-wrapper{
-    background-image: url('https://media.discordapp.net/attachments/1134172030699323465/1185157889271271526/image.png?ex=658e974b&is=657c224b&hm=1c981d7b18d64630f6458180477628f51c1c0b675d6e73761dfed7dbcddc4781&=&format=webp&quality=lossless&width=1536&height=1056');
+    background-image: url('../../assets/industry-bg.webp');
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import logo from "../../assets/logo1.webp";
 export default function Navbar() {
   return (
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -8,7 +9,7 @@ export default function Navbar() {
         <Link to="/" style={{ textDecoration: "none" }}>
           <a class="navbar-brand" href="#">
             <img
-              src="https://media.discordapp.net/attachments/1134172030699323465/1184535992577835018/image.png?ex=658c541c&is=6579df1c&hm=10f7f42e0cfa8f35e2b71ee1dbeaaa3f0962222c5370e4778330f184a2fbc568&=&format=webp&quality=lossless&width=1332&height=288"
+              src={logo}
               alt="Logo"
               width="280"
               height="50"

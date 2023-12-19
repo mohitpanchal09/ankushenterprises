@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "./ControlledCarousel.css";
+import ankushChemicalPlate from "../../assets/ankush-chemical-plate.webp";
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);
 
@@ -10,10 +11,7 @@ function ControlledCarousel() {
 
   return (
     <div className="carousel-1-container">
-      <img
-        src="https://media.discordapp.net/attachments/1134172030699323465/1184796118475874344/image.png?ex=658d465f&is=657ad15f&hm=9220d9542b297828177267388dea31c04f871d8cc0b92913e90522f155fd312f&=&format=webp&quality=lossless&width=1154&height=1056"
-        alt=""
-      />
+      <img src={ankushChemicalPlate} alt="" />
       <div className="carousel-text-content-1">
         <p className="first-text">WELCOME TO</p>
         <span className="second-text">

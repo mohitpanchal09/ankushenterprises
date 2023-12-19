@@ -3,6 +3,7 @@ import "./ContactUs.css";
 import { CiLocationOn } from "react-icons/ci";
 import { AiOutlineMail } from "react-icons/ai";
 import { LiaPhoneVolumeSolid } from "react-icons/lia";
+import map from "../../assets/map image.png";
 export default function ContactUsComp() {
   return (
     <div className="contact-us-wrapper">
@@ -59,11 +60,7 @@ export default function ContactUsComp() {
           </button>
         </div>
       </div>
-      <img
-        className="contact-map"
-        src="https://media.discordapp.net/attachments/1134172030699323465/1185588663128703107/image.png?ex=6590287c&is=657db37c&hm=b6845443175cfb20e75eb267b3dee12af89cfae9c4669e68a467d09b4ed386b4&=&format=webp&quality=lossless&width=2160&height=450"
-        alt=""
-      />
+      <img className="contact-map" src={map} alt="" />
     </div>
   );
 }

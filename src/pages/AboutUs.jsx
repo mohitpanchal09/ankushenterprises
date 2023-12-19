@@ -8,6 +8,8 @@ import { GrStarOutline } from "react-icons/gr";
 import { HiOutlineShoppingBag } from "react-icons/hi2";
 import { FaTruckFast } from "react-icons/fa6";
 import AboutUsFirst from "../components/aboutusfirst/AboutUsFirst";
+import aboutusesecond from "../assets/aboutusesecond.png";
+import chemicals from "../assets/chemicals.webp";
 export default function AboutUs() {
   return (
     <>
@@ -16,10 +18,7 @@ export default function AboutUs() {
       <div className="why-wrapper about-us-bg" style={{ height: "100vh" }}>
         <div className="why-3">
           <div className="why-1">
-            <img
-              src="https://media.discordapp.net/attachments/1134172030699323465/1184958530155986974/image.png?ex=658ddda1&is=657b68a1&hm=52566d47885e835eeafc44987197c64489ba37680f8b3612b65e7cc61db7cd4e&=&format=webp&quality=lossless&width=1056&height=1056"
-              alt=""
-            />
+            <img src={chemicals} alt="" />
           </div>
           <div className="why-2">
             <h1>
@@ -129,10 +128,7 @@ export default function AboutUs() {
           </button>
         </div>
         <div className="about-us-first-2">
-          <img
-            src="https://media.discordapp.net/attachments/1134172030699323465/1185238630218870884/image.png?ex=658ee27e&is=657c6d7e&hm=75f8cbdde9bd4ae2640ffc0379d7b9bd63e711e8b9d362f9ea7886119305788a&=&format=webp&quality=lossless&width=1560&height=1056"
-            alt=""
-          />
+          <img src={aboutusesecond} alt="" />
         </div>
       </div>
       <Footer />
