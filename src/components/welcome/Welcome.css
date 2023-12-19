@@ -45,3 +45,13 @@
     background-color: #ED1D2B !important;
 }
 
+
+@media screen and (max-width:1000px) {
+    .welcome-inner-container{
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+    }
+}

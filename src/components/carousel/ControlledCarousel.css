@@ -66,7 +66,7 @@ border-radius: 54px;
     }
     .carousel-1-container>img{
         margin-top: 100px;
-        width: 70%;
+        width: 40%;
         margin-left: auto;
         margin-right: auto;
         
@@ -97,6 +97,12 @@ border-radius: 54px;
     .carousel-text-content-1{
         margin-left: 13%;
         margin-top: 10%;
+        
+    }
+    .carousel-1-container>img{
+        
+        width: 70%;
+        
         
     }
 }

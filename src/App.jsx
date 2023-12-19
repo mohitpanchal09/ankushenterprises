@@ -28,7 +28,7 @@ function App() {
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/products" element={<Products />} />
         <Route path="/industries" element={<IndustriesPage />} />
-        <Route path="/product" element={<ProductDetails />} />
+        <Route path="/product/:id" element={<ProductDetails />} />
       </Routes>
     </BrowserRouter>
   );

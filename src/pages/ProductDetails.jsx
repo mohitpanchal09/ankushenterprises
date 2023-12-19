@@ -4,7 +4,17 @@ import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/footer/Footer";
 import { Link } from "react-router-dom";
 import MoreProducts from "../components/moreproducts/MoreProducts";
+import { useLocation } from "react-router-dom";
+import data from ".././products";
 export default function ProductDetails() {
+  const location = useLocation();
+  const str = location.pathname;
+  const arr = str.split("/");
+  const id = arr[arr.length - 1];
+  const prd = data.find((item) => {
+    return item.id == id;
+  });
+
   return (
     <>
       <Navbar />
@@ -17,30 +27,20 @@ export default function ProductDetails() {
         </div>
         <div className="product-right">
           <h1 className="product-title">
-            Liquid Unsaturated Polyester Resin <br /> <span>In Stock</span>
+            {prd.title} <br /> <span>In Stock</span>
           </h1>
 
           <p className="product-info">
-            Gel coat resin is a special resin for making the gel coat layer of
-            FRP products. It is a special type of unsaturated polyester resin.
-            It is mainly used on the surface of resin products. It is a
-            continuous thin layer and the function of the gel coat resin on the
-            surface of the product is to provide a protective layer for the base
-            resin or laminate to improve the weather. It adds some extra shine
-            and finishing to the products. Gelcoat is applied as the first layer
-            on the negative mold. It therefore serves as the base layer. The
-            glass fiber fabric is then laid on top of this and shaped to meet
-            the requirements. <br /> <br />
-            Gelcoat not only serves as a base layer but also as an adhesive: it
-            hardens sticky on the side facing the air so that the application of
-            the fiber is straightforward. Gelcoat resin coated surface is glossy
-            after cured. It has good mechanical properties and water resistance
-            and is resistance to mild chemicals and ultra-violet light, thus
-            enhancing the durability of glassfibre reinforced plastics (GRP)
-            products These resins are tailor make to meet the diverse needs of
-            GRP/FRP industry and meeting the requirements of customers interest
-            of improved efficiency and superior performance of finished product.
+            {prd.desc} <br />
+            <ul>
+              {/* Map through features array and render each feature as an li element */}
+              {prd.features &&
+                prd.features.map((feature, index) => (
+                  <li key={index}>{feature}</li>
+                ))}
+            </ul>{" "}
           </p>
+
           <Link
             to="/contact-us"
             style={{ textDecoration: "none", marginBottom: "30px" }}
@@ -74,7 +74,7 @@ export default function ProductDetails() {
           </Link>
         </div>
       </div>
-      <h1 className="more-products">
+      <h1 className="more-products" style={{ marginTop: "50px" }}>
         More &nbsp; <span className="bg-red">Products</span>
       </h1>
       <MoreProducts />

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./ProductList.css";
 import Product from "../product/Product";
 import { Link } from "react-router-dom";
-import imgArray from "../../data";
+import data from "../../products";
 import ReactPaginate from "react-paginate";
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 
@@ -12,12 +12,9 @@ export default function ProductList() {
 
   const indexOfLastProduct = (currentPage + 1) * productsPerPage;
   const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
-  const currentProducts = imgArray.slice(
-    indexOfFirstProduct,
-    indexOfLastProduct
-  );
+  const currentProducts = data.slice(indexOfFirstProduct, indexOfLastProduct);
 
-  const totalPages = Math.ceil(imgArray.length / productsPerPage);
+  const totalPages = Math.ceil(data.length / productsPerPage);
 
   const handlePageClick = (data) => {
     setCurrentPage(data.selected);
@@ -31,10 +28,13 @@ export default function ProductList() {
       <div className="products-wrapper">
         {currentProducts.map((item, index) => (
           <div className="product" key={index}>
-            <img src={item} alt="" />
-            <p>Liquid Unsaturated Polyester Resin</p>
+            <img src={item.img} alt="" />
+            <p>{item.title}</p>
             <div className="buttons">
-              <Link to="/product" style={{ textDecoration: "none" }}>
+              <Link
+                to={`/product/${item.id}`}
+                style={{ textDecoration: "none" }}
+              >
                 <button className="btn-1">View Product</button>
               </Link>
               <Link to="/contact-us" style={{ textDecoration: "none" }}>

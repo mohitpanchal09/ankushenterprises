@@ -45,6 +45,12 @@ font-weight: 700;
     border-radius: 5.267px;
 background: rgba(237, 29, 43, 0.38);
 }
+.product-info li{
+    text-align: left;
+}
+.product-info ul{
+    margin-top: 20px;
+}
 
 
 @media screen and (max-width:900px) {
