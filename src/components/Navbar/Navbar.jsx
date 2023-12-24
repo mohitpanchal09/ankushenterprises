@@ -2,7 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo1.webp";
-export default function Navbar() {
+export default function Navbar({ onSelectCategory }) {
   return (
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid justify-content-around">
@@ -43,31 +43,44 @@ export default function Navbar() {
                   All Categories
                 </a>
                 <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      UNSATURATED POLYSTER RESIN
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      FIBER GLASS
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      COBALT OCTATE
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      M.E.K.P
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      STYRENE MONOMER
-                    </a>
-                  </li>
+                  <Link
+                    to="/unsaturated-polyster-resin"
+                    style={{ textDecoration: "none" }}
+                  >
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        UNSATURATED POLYSTER RESIN
+                      </a>
+                    </li>
+                  </Link>
+                  <Link to="/fibre-glass" style={{ textDecoration: "none" }}>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        FIBER GLASS
+                      </a>
+                    </li>
+                  </Link>
+                  <Link to="/cobalt-octoate" style={{ textDecoration: "none" }}>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        COBALT OCTOATE
+                      </a>
+                    </li>
+                  </Link>
+                  <Link to="/mekp" style={{ textDecoration: "none" }}>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        M.E.K.P
+                      </a>
+                    </li>
+                  </Link>
+                  <Link to="/stryne-monomer" style={{ textDecoration: "none" }}>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        STYRENE MONOMER
+                      </a>
+                    </li>
+                  </Link>
                 </ul>
               </li>
               <Link to="/" style={{ textDecoration: "none" }}>

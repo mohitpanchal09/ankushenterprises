@@ -1,4 +1,4 @@
-const data = [
+const data=[
     {
         "title": "Gel Coat Resin",
         "desc": "Gel coat resin is a special resin for making the gel coat layer of FRP products. It is a special type of unsaturated polyester resin. It is mainly used on the surface of resin products. It is a continuous thin layer and the  function of the gel coat resin on the surface of the product is to provide a protective layer for the base resin or laminate to improve the weather. It adds some extra shine and finishing to the products. Gelcoat is applied as the first layer on the negative mold. It therefore serves as the base layer. The glass fiber fabric is then laid on top of this and shaped to meet the requirements. Gelcoat not only serves as a base layer but also as an adhesive: it hardens sticky on the side facing the air so that the application of the fiber is straightforward. Gelcoat resin coated surface is glossy after cured. It has good mechanical properties and water resistance and is resistance to mild chemicals and ultra-violet light, thus enhancing the durability of glassfibre reinforced plastics (GRP) products These resins are tailor make to meet the diverse needs of GRP/FRP industry and meeting the requirements of customers interest of improved efficiency and superior performance of finished product.",
@@ -9,7 +9,8 @@ const data = [
             "Good response to weatherability"
         ],
         "id": 0,
-        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056"
+        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056",
+        "category": "unsaturated-polyster-resin"
     },
     {
         "title": "DMC/ SMC Resin",
@@ -21,7 +22,8 @@ const data = [
             "Resistant to corrosion"
         ],
         "id": 1,
-        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056"
+        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056",
+        "category": "unsaturated-polyster-resin"
     },
     {
         "title": "Pultrusion Resin",
@@ -33,7 +35,8 @@ const data = [
             "Provide high line speed"
         ],
         "id": 2,
-        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056"
+        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056",
+        "category": "unsaturated-polyster-resin"
     },
     {
         "title": "Fire Retardent Resin (GP-FR)",
@@ -45,7 +48,8 @@ const data = [
             "Suitable for many industries"
         ],
         "id": 3,
-        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056"
+        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056",
+        "category": "unsaturated-polyster-resin"
     },
     {
         "title": "Isopthathlic Resins",
@@ -56,7 +60,8 @@ const data = [
             "High durability"
         ],
         "id": 4,
-        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056"
+        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056",
+        "category": "unsaturated-polyster-resin"
     },
     {
         "title": "Roofing grade resin",
@@ -68,7 +73,8 @@ const data = [
             "Ultraviolent stability"
         ],
         "id": 5,
-        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056"
+        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056",
+        "category": "unsaturated-polyster-resin"
     },
     {
         "title": "General Purpose (GP) Resin",
@@ -80,7 +86,8 @@ const data = [
             "Clear transparent and medium yellow in color"
         ],
         "id": 6,
-        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056"
+        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056",
+        "category": "unsaturated-polyster-resin"
     },
     {
         "title": "Statue Grade Resin",
@@ -92,7 +99,8 @@ const data = [
             "Outstanding strength and durability"
         ],
         "id": 7,
-        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056"
+        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056",
+        "category": "unsaturated-polyster-resin"
     },
     {
         "title": "Door Lamination Grade Resin",
@@ -104,7 +112,8 @@ const data = [
             "Low viscosity"
         ],
         "id": 8,
-        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056"
+        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056",
+        "category": "unsaturated-polyster-resin"
     },
     {
         "title": "Customized Resin",
@@ -115,7 +124,8 @@ const data = [
             "100% client satisfaction"
         ],
         "id": 9,
-        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056"
+        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056",
+        "category": "unsaturated-polyster-resin"
     },
     {
         "title": "Fibre Cooler Grade Resin",
@@ -128,7 +138,8 @@ const data = [
             "Good finish"
         ],
         "id": 10,
-        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056"
+        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056",
+        "category": "unsaturated-polyster-resin"
     },
     {
         "title": " Button Grade Resin",
@@ -146,7 +157,8 @@ const data = [
             "Excellent surface shine"
         ],
         "id": 11,
-        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056"
+        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056",
+        "category": "unsaturated-polyster-resin"
     },
     {
         "title": "Corrosion Resistance Resin",
@@ -158,7 +170,8 @@ const data = [
             "Good resistance to high temperature"
         ],
         "id": 12,
-        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056"
+        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056",
+        "category": "unsaturated-polyster-resin"
     },
     {
         "title": "Quartz Grade Resin",
@@ -170,7 +183,8 @@ const data = [
             "Clear resin"
         ],
         "id": 13,
-        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056"
+        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056",
+        "category": "unsaturated-polyster-resin"
     },
     {
         "title": "Main Hole Cover Grade Resin",
@@ -182,7 +196,8 @@ const data = [
             "Light weight"
         ],
         "id": 14,
-        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056"
+        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056",
+        "category": "unsaturated-polyster-resin"
     },
     {
         "title": "Filament Winding Resin",
@@ -194,7 +209,8 @@ const data = [
             "Outstanding stiffness"
         ],
         "id": 15,
-        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056"
+        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056",
+        "category": "unsaturated-polyster-resin"
     },
     {
         "title": "Hand LayUp Resin",
@@ -206,7 +222,109 @@ const data = [
             "Blister resistance"
         ],
         "id": 16,
-        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056"
+        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056",
+        "category": "unsaturated-polyster-resin"
+    },
+    {
+        "title": "Cobalt Octoate 6%",
+        "desc": "Cobalt octoate 6% is an abbreviation for the compounds cobalt napthenate and cobalt octoate 6%. These compounds are promotors or accelerator used in curing polyster resin with methyl ethyl ketone peroxide (MEKP) type catalysts. These promotors are also called accelerators. The purpose of the promoters is to speed up the curing reaction of polyster resin and allow them to cure at room temperature. The colbalt based promoter helps the catalyst to start the chemical reaction between the resin and styrene monomer and form a cured solid. cobalt octoate 6%  can be identified with deep purple color . cobalt octoate 6% is a blush violet liquid that has a low viscosity and functions as the most active function drier.",
+        "category": "cobalt-octoate",
+        "id": 17
+    },
+    {
+        "title": "Cobalt Octoate 4%",
+        "desc": "Cobalt octoate 4% is an abbreviation for the compounds cobalt naphthenate and cobalt octoate 4%. These compounds are promotors or accelerator used in curing polyester resin with methyl ethyl ketone peroxide (MEKP) type catalysts. These promotors are also called accelerators. The purpose of the promoters is to speed up the curing reaction of polyester resin and allow them to cure at room temperature. The cobalt based promoter helps the catalyst to start the chemical reaction between the resin and styrene monomer and form a cured solid. cobalt octoate 6%  can be identified with deep purple colour . cobalt octoate 4% is a blush violet liquid that has a low viscosity and functions as the most active function drier.",
+        "category": "cobalt-octoate",
+        "id": 18
+    },
+    {
+        "title": "Cobalt Octoate 2%",
+        "desc": "Cobalt Octoate is a Cobalt source that is soluble in organic solvents as an organometallic compound (also known as metalorganic, organo-inorganic and metalloid-organic compounds). Cobalt Octoate is commonly used in various catalysts and catalytic reagents for organic synthesis. It is generally immediately available in most volumes. Ultra-high purity and high purity forms may be considered. Cobalt Octoate is one of numerous organo-metallic compounds (also known as metalorganic, organo-inorganic and metalloid-organic compounds) sold by American Elements under the trade name AE Organo-Metallics™ for uses requiring non-aqueous solubility such as recent solar energy and water treatment applications. Similar results can sometimes also be achieved with Nanoparticles and by thin film deposition.",
+        "category": "cobalt-octoate",
+        "id": 19
+    },
+    {
+        "title": "300 EMULSION BONDED CHOPPED STRAND MAT",
+        "desc": "CSM mat is made of randomly oriented chopped glass strands bonded together in mat form using an emulsion binder. The emulsion binder uniquely bonds the mat so that it conforms rapidly to highly contoured moulds. It is a porous, well bonded mat which maintains its integrity during the impregnation process and provides an uniform wet-through rate. The emulsion binder produces superior handling properties compared to powder bonded mats. CSM mat is a reinforcement for use with unsaturated polyester resins in the hand lay-up process. Ideal for applications such as auto parts, boats, chemical tanks and swimming pools. Typical applications are those which require a high glass content and good mechanical properties. CSM is ideal in applications requiring rapid impregnation and excellent wetting. CSM has excellent handling and tailoring properties as well as the ability to conform rapidly to even the most complex moulds.",
+        "features": [
+            "Excellent impregnation properties",
+            "Good mechanical properties",
+            "Quick wetting with rapid air release maximizes holding productivity and reduces resin demand, thereby reducing costs",
+            "The ease of handling and ability to conform rapidly to complex moulds helps in making high quality parts with ease",
+            "Good bonding with low resin demand provides excellent laminate properties as demonstrated with the Lloyds/dnv certifications"
+        ],
+        "category": "fibre-glass",
+        "id": 20
+    },
+    {
+        "title": "450 EMULSION BONDED CHOPPED STRAND MAT",
+        "desc": "CSM mat is made of randomly oriented chopped glass strands bonded together in mat form using an emulsion binder. The emulsion binder uniquely bonds the mat so that it conforms rapidly to highly contoured moulds. It is a porous, well bonded mat which maintains its integrity during the impregnation process and provides an uniform wet-through rate. The emulsion binder produces superior handling properties compared to powder bonded mats. CSM mat is a reinforcement for use with unsaturated polyester resins in the hand lay-up process. Ideal for applications such as auto parts, boats, chemical tanks and swimming pools. Typical applications are those which require a high glass content and good mechanical properties. CSM is ideal in applications requiring rapid impregnation and excellent wetting. CSM has excellent handling and tailoring properties as well as the ability to conform rapidly to even the most complex moulds.",
+        "features": [
+            "Excellent impregnation properties",
+            "Good mechanical properties",
+            "Quick wetting with rapid air release maximizes holding productivity and reduces resin demand, thereby reducing costs",
+            "The ease of handling and ability to conform rapidly to complex moulds helps in making high quality parts with ease",
+            "Good bonding with low resin demand provides excellent laminate properties as demonstrated with the Lloyds/dnv certifications"
+        ],
+        "category": "fibre-glass",
+        "id": 21
+    },
+    {
+        "title": "225 EMULSION BONDED CHOPPED STRAND MAT",
+        "desc": "CSM mat is made of randomly oriented chopped glass strands bonded together in mat form using an emulsion binder. The emulsion binder uniquely bonds the mat so that it conforms rapidly to highly contoured moulds. It is a porous, well bonded mat which maintains its integrity during the impregnation process and provides an uniform wet-through rate. The emulsion binder produces superior handling properties compared to powder bonded mats. CSM mat is a reinforcement for use with unsaturated polyester resins in the hand lay-up process. Ideal for applications such as auto parts, boats, chemical tanks and swimming pools. Typical applications are those which require a high glass content and good mechanical properties. CSM is ideal in applications requiring rapid impregnation and excellent wetting. CSM has excellent handling and tailoring properties as well as the ability to conform rapidly to even the most complex moulds.",
+        "features": [
+            "Excellent impregnation properties",
+            "Good mechanical properties",
+            "Quick wetting with rapid air release maximizes holding productivity and reduces resin demand, thereby reducing costs",
+            "The ease of handling and ability to conform rapidly to complex moulds helps in making high quality parts with ease",
+            "Good bonding with low resin demand provides excellent laminate properties as demonstrated with the Lloyds/dnv certifications"
+        ],
+        "category": "fibre-glass",
+        "id": 22
+    },
+    {
+        "title": "300 POWDER BONDED CHOPPED STRAND MAT",
+        "desc": "CSM mat is made of randomly oriented chopped glass strands bonded together in mat form using an emulsion binder. The emulsion binder uniquely bonds the mat so that it conforms rapidly to highly contoured moulds. It is a porous, well bonded mat which maintains its integrity during the impregnation process and provides an uniform wet-through rate. The emulsion binder produces superior handling properties compared to powder bonded mats. CSM mat is a reinforcement for use with unsaturated polyester resins in the hand lay-up process. Ideal for applications such as auto parts, boats, chemical tanks and swimming pools. Typical applications are those which require a high glass content and good mechanical properties. CSM is ideal in applications requiring rapid impregnation and excellent wetting. CSM has excellent handling and tailoring properties as well as the ability to conform rapidly to even the most complex moulds.",
+        "features": [
+            "Excellent impregnation properties",
+            "Good mechanical properties",
+            "Quick wetting with rapid air release maximizes holding productivity and reduces resin demand, thereby reducing costs",
+            "The ease of handling and ability to conform rapidly to complex moulds helps in making high quality parts with ease",
+            "Good bonding with low resin demand provides excellent laminate properties as demonstrated with the Lloyds/dnv certifications"
+        ],
+        "category": "fibre-glass",
+        "id": 23
+    },
+    {
+        "title": "450 POWDER BONDED CHOPPED STRAND MAT",
+        "desc": "CSM mat is made of randomly oriented chopped glass strands bonded together in mat form using an emulsion binder. The emulsion binder uniquely bonds the mat so that it conforms rapidly to highly contoured moulds. It is a porous, well bonded mat which maintains its integrity during the impregnation process and provides an uniform wet-through rate. The emulsion binder produces superior handling properties compared to powder bonded mats. CSM mat is a reinforcement for use with unsaturated polyester resins in the hand lay-up process. Ideal for applications such as auto parts, boats, chemical tanks and swimming pools. Typical applications are those which require a high glass content and good mechanical properties. CSM is ideal in applications requiring rapid impregnation and excellent wetting. CSM has excellent handling and tailoring properties as well as the ability to conform rapidly to even the most complex moulds.",
+        "features": [
+            "Excellent impregnation properties",
+            "Good mechanical properties",
+            "Quick wetting with rapid air release maximizes holding productivity and reduces resin demand, thereby reducing costs",
+            "The ease of handling and ability to conform rapidly to complex moulds helps in making high quality parts with ease",
+            "Good bonding with low resin demand provides excellent laminate properties as demonstrated with the Lloyds/dnv certifications"
+        ],
+        "category": "fibre-glass",
+        "id": 24
+    },
+    {
+        "title": "WR Roving",
+        "desc": "WR glass combines the excellent mechanical and electrical properties of traditional E-Glass with the acid corrosion resistance of E-CR Glass. WR glass satisfies the requirements and description of both E-Glass and E-CR Glass according to ISO 2078 and ASTM D578. WR is composed of direct rovings woven into a fabric or tape. The input rovings are designed to give controlled wet-out and excellent laminate properties. The construction gives bi-directional (0°/90°) reinforcement and the strength of continuous filaments. Woven Roving Fabrics are designed to be compatible with multiple resin systems, and can be customized to meet specific product requirement.",
+        "category": "fibre-glass",
+        "id": 25
+    },
+    {
+        "title": "Styrene monomer",
+        "desc": "Styrene monomer is an industrial chemical derived from petroleum or natural gas by-products and which, under normal conditions, is a clear, colourless liquid. It has been synthetically produced for more than 70 years – in 2013 global demand was over 27 million tonnes - but it is also naturally occurring in a number of common foods.",
+        "category": "Styrene monomer",
+        "id": 26
+    },
+    {
+        "title": "MEKP",
+        "desc": "Methyl ethyl ketone peroxide (MEKP) is an organic peroxide with the formula [(CH3)(C2H5)C(O2H)]2O2. MEKP is a colourless oily liquid. It is widely used in vulcanization (crosslinking) of polymers. It is derived from the reaction of methyl ethyl ketone and hydrogen peroxide under acidic conditions. Several products result from this reaction including a cyclic dimer. The linear dimer, the topic of this article, is the most prevalent and this is the form that is typically quoted in the commercially available material. Solutions of 30 to 40% MEKP are used in industry and by hobbyists as catalyst to initiate the crosslinking of unsaturated polyester resins used in fiberglass, and casting.",
+        "category": "mekp",
+        "id": 27
     }
 ]
 export default data;

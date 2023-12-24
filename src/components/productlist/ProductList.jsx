@@ -5,19 +5,28 @@ import { Link } from "react-router-dom";
 import data from "../../products";
 import ReactPaginate from "react-paginate";
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
+import { useLocation } from "react-router-dom";
 
-export default function ProductList() {
+export default function ProductList(props) {
+  const { category } = props;
+
   const productsPerPage = 6;
   const [currentPage, setCurrentPage] = useState(0);
+  const filteredProducts = category
+    ? data.filter((item) => item.category == category)
+    : data;
 
   const indexOfLastProduct = (currentPage + 1) * productsPerPage;
   const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
-  const currentProducts = data.slice(indexOfFirstProduct, indexOfLastProduct);
+  const currentProducts = filteredProducts.slice(
+    indexOfFirstProduct,
+    indexOfLastProduct
+  );
 
-  const totalPages = Math.ceil(data.length / productsPerPage);
+  const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
 
-  const handlePageClick = (data) => {
-    setCurrentPage(data.selected);
+  const handlePageClick = (filteredProducts) => {
+    setCurrentPage(filteredProducts.selected);
   };
 
   return (
