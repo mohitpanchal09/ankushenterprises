@@ -1,21 +1,51 @@
 import React from "react";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
-import { Gallery } from "react-grid-gallery";
-import imageArray from "../../data";
 import "./GalleryTest.css";
+import pic23 from "../../assets/industries-images/pic23.jpg";
+import pic2 from "../../assets/industries-images/pic2.jpg";
+import pic3 from "../../assets/industries-images/pic3.jpg";
+import pic4 from "../../assets/industries-images/pic4.jpg";
+import pic5 from "../../assets/industries-images/pic5.jpg";
+import pic6 from "../../assets/industries-images/pic6.jpg";
+import pic7 from "../../assets/industries-images/pic7.jpg";
+import pic8 from "../../assets/industries-images/pic8.jpg";
+import pic10 from "../../assets/industries-images/pic10.jpg";
+import pic9 from "../../assets/industries-images/pic9.jpg";
+import pic11 from "../../assets/industries-images/pic11.jpg";
+import pic12 from "../../assets/industries-images/pic12.jpg";
+import pic13 from "../../assets/industries-images/pic13.jpg";
+import pic14 from "../../assets/industries-images/pic14.jpg";
+import pic15 from "../../assets/industries-images/pic15.jpg";
+import pic16 from "../../assets/industries-images/pic16.jpg";
+import pic17 from "../../assets/industries-images/pic17.jpg";
+import pic18 from "../../assets/industries-images/pic18.jpg";
+import pic19 from "../../assets/industries-images/pic19.jpg";
+import pic20 from "../../assets/industries-images/pic20.jpg";
+import pic21 from "../../assets/industries-images/pic21.jpg";
+import pic22 from "../../assets/industries-images/pic22.jpg";
+
 export default function GalleryTest() {
   const images = [
-    "https://images.unsplash.com/photo-1682687220640-9d3b11ca30e5?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwzNnx8fGVufDB8fHx8fA%3D%3D",
-    "https://plus.unsplash.com/premium_photo-1679991890467-3decb348b0a1?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNXx8fGVufDB8fHx8fA%3D%3D",
-    "https://plus.unsplash.com/premium_photo-1669385169163-946584657986?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3MXx8fGVufDB8fHx8fA%3D%3D",
-    "https://images.unsplash.com/photo-1702136999448-a9337bb19cbd?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3MHx8fGVufDB8fHx8fA%3D%3D",
-    "https://images.unsplash.com/photo-1700684677600-e41b44847d18?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8",
-    "https://images.unsplash.com/photo-1682687982185-531d09ec56fc?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8",
-    "https://images.unsplash.com/photo-1682687220923-c58b9a4592ae?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxNnx8fGVufDB8fHx8fA%3D%3D",
-    "https://images.unsplash.com/photo-1702573849838-0f66f3731fdf?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8fA%3D%3D",
-    "https://images.unsplash.com/photo-1682686578707-140b042e8f19?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyMXx8fGVufDB8fHx8fA%3D%3D",
-    "https://plus.unsplash.com/premium_photo-1669833450296-1c9948e72f87?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3Nnx8fGVufDB8fHx8fA%3D%3D",
-    "https://images.unsplash.com/photo-1702350310771-65ea21568baa?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4M3x8fGVufDB8fHx8fA%3D%3D",
+    pic2,
+
+    pic4,
+    pic5,
+    pic6,
+    pic9,
+    pic10,
+    pic11,
+    pic12,
+    pic13,
+    pic14,
+    pic15,
+    pic16,
+    pic17,
+    pic18,
+    pic19,
+    pic20,
+    pic21,
+    pic22,
+    pic3,
   ];
 
   return (
