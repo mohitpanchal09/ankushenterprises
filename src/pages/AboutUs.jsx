@@ -10,6 +10,7 @@ import { FaTruckFast } from "react-icons/fa6";
 import AboutUsFirst from "../components/aboutusfirst/AboutUsFirst";
 import aboutusesecond from "../assets/aboutusesecond.png";
 import chemicals from "../assets/chemicals.webp";
+import { Link } from "react-router-dom";
 export default function AboutUs() {
   return (
     <>
@@ -101,31 +102,34 @@ export default function AboutUs() {
             seeking ways to improve formulas and adapt to the evolving needs of
             our customers.
           </p>
-          <button className="enquiry-button">
-            Enquiry Now &nbsp;{" "}
-            <svg
-              width="21"
-              height="17"
-              viewBox="0 0 21 17"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M20.0377 8.59497H1.45282"
-                stroke="white"
-                stroke-width="1.85849"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M12.5418 1.13L20.0378 8.5937L12.5418 16.0586"
-                stroke="white"
-                stroke-width="1.85849"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </button>
+          <Link to="/contact-us" style={{ textDecoration: "none" }}>
+            {" "}
+            <button className="enquiry-button">
+              Enquiry Now &nbsp;{" "}
+              <svg
+                width="21"
+                height="17"
+                viewBox="0 0 21 17"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M20.0377 8.59497H1.45282"
+                  stroke="white"
+                  stroke-width="1.85849"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M12.5418 1.13L20.0378 8.5937L12.5418 16.0586"
+                  stroke="white"
+                  stroke-width="1.85849"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </Link>
         </div>
         <div className="about-us-first-2">
           <img src={aboutusesecond} alt="" />
