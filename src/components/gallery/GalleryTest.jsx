@@ -59,7 +59,7 @@ export default function GalleryTest() {
     // pic17,
     { title: "WINDMILL INDUSTRY", img: pic18 },
 
-    { title: " Building and construction", img: pic19 },
+    { title: " Building & construction", img: pic19 },
 
     { title: "Marine", img: pic20 },
 
@@ -80,7 +80,7 @@ export default function GalleryTest() {
                   alt={`Industry ${i + 1}`}
                   className="image"
                 />
-                <div className="image-text">{item.title}</div>
+                <div className="image-text">{item.title.toUpperCase()}</div>
               </div>
             </div>
           ))}
