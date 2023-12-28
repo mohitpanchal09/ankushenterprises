@@ -13,6 +13,9 @@
 .dropdown{
     text-align: center;
 }
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
 @media screen and (max-width:768px) {
     .ankush-logo{
         height: 40px;

@@ -1,3 +1,33 @@
+import pic1 from '../src/assets/product-images/gelcoat.png'
+import pic2 from '../src/assets/product-images/SMCDMCRESIN.jpg'
+import pic3 from '../src/assets/product-images/PULTRUSIONRESIN.jpg'
+import pic4 from '../src/assets/product-images/GP-FRRESIN.png'
+import pic5 from '../src/assets/product-images/ISOPTHALICRESIN.jpg' 
+
+import pic6 from '../src/assets/product-images/ROOFINGSHEETGRADERESIN.jpg' 
+import pic7 from '../src/assets/product-images/gpresin.jpg'
+import pic8 from '../src/assets/product-images/statuegrade.jpg'
+import pic9 from '../src/assets/product-images/Doorlaminationgraderesin.jpg'
+const pic10='https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056'
+import pic11 from '../src/assets/product-images/FIBERCOOLERGRADERESIN.jpg'
+import pic12 from '../src/assets/product-images/buttongraderesin.jpg'
+import pic13 from '../src/assets/product-images/CORROSIVERESISTANTRESIN.jpg'
+import pic14 from '../src/assets/product-images/quartzgrade.jpg'
+import pic15 from '../src/assets/product-images/manhole.jpg'
+import pic16 from '../src/assets/product-images/filamentWindingResin.jpg'
+import pic17 from '../src/assets/product-images/handlayupresin.jpg'
+import pic18 from '../src/assets/product-images/cobaltOctate6.jpg'
+import pic19 from '../src/assets/product-images/cobaltOctate4.jpg'
+import pic20 from '../src/assets/product-images/cobaltOctate2.jpg'
+import pic21 from '../src/assets/product-images/300emulsionbondedchoppedstrandmat.jpg'
+import pic22 from '../src/assets/product-images/450-EMULSION-BONDED-CHOPPED-STRAND-MAT.jpg'
+import pic23 from '../src/assets/product-images/225-EMULSION-BONDED-CHOPPED-STRAND-MAT.jpg'
+import pic24 from '../src/assets/product-images/300-powder-bonded-chopped-strand-mat.jpg'
+import pic25 from '../src/assets/product-images/450-POWDER-BONDED-CHOPPED-STRAND-MAT.jpg'
+import pic26 from '../src/assets/product-images/wr-roving.jpg'
+import pic27 from '../src/assets/product-images/stryeneMonomer.jpg'
+import pic28 from '../src/assets/product-images/mekp.jpg'
+
 const data=[
     {
         "title": "Gel Coat Resin",
@@ -9,7 +39,7 @@ const data=[
             "Good response to weatherability"
         ],
         "id": 0,
-        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056",
+        "img": pic1,
         "category": "unsaturated-polyster-resin"
     },
     {
@@ -22,7 +52,7 @@ const data=[
             "Resistant to corrosion"
         ],
         "id": 1,
-        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056",
+        "img": pic2,
         "category": "unsaturated-polyster-resin"
     },
     {
@@ -35,7 +65,7 @@ const data=[
             "Provide high line speed"
         ],
         "id": 2,
-        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056",
+        "img": pic3,
         "category": "unsaturated-polyster-resin"
     },
     {
@@ -48,7 +78,7 @@ const data=[
             "Suitable for many industries"
         ],
         "id": 3,
-        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056",
+        "img": pic4,
         "category": "unsaturated-polyster-resin"
     },
     {
@@ -60,7 +90,7 @@ const data=[
             "High durability"
         ],
         "id": 4,
-        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056",
+        "img": pic5,
         "category": "unsaturated-polyster-resin"
     },
     {
@@ -73,7 +103,7 @@ const data=[
             "Ultraviolent stability"
         ],
         "id": 5,
-        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056",
+        "img": pic6,
         "category": "unsaturated-polyster-resin"
     },
     {
@@ -86,7 +116,7 @@ const data=[
             "Clear transparent and medium yellow in color"
         ],
         "id": 6,
-        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056",
+        "img": pic7,
         "category": "unsaturated-polyster-resin"
     },
     {
@@ -99,7 +129,7 @@ const data=[
             "Outstanding strength and durability"
         ],
         "id": 7,
-        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056",
+        "img": pic8,
         "category": "unsaturated-polyster-resin"
     },
     {
@@ -112,7 +142,7 @@ const data=[
             "Low viscosity"
         ],
         "id": 8,
-        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056",
+        "img": pic9,
         "category": "unsaturated-polyster-resin"
     },
     {
@@ -124,7 +154,7 @@ const data=[
             "100% client satisfaction"
         ],
         "id": 9,
-        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056",
+        "img": pic10,
         "category": "unsaturated-polyster-resin"
     },
     {
@@ -138,7 +168,7 @@ const data=[
             "Good finish"
         ],
         "id": 10,
-        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056",
+        "img": pic11,
         "category": "unsaturated-polyster-resin"
     },
     {
@@ -157,7 +187,7 @@ const data=[
             "Excellent surface shine"
         ],
         "id": 11,
-        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056",
+        "img": pic12,
         "category": "unsaturated-polyster-resin"
     },
     {
@@ -170,7 +200,7 @@ const data=[
             "Good resistance to high temperature"
         ],
         "id": 12,
-        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056",
+        "img": pic13,
         "category": "unsaturated-polyster-resin"
     },
     {
@@ -183,7 +213,7 @@ const data=[
             "Clear resin"
         ],
         "id": 13,
-        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056",
+        "img": pic14,
         "category": "unsaturated-polyster-resin"
     },
     {
@@ -196,7 +226,7 @@ const data=[
             "Light weight"
         ],
         "id": 14,
-        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056",
+        "img": pic15,
         "category": "unsaturated-polyster-resin"
     },
     {
@@ -209,7 +239,7 @@ const data=[
             "Outstanding stiffness"
         ],
         "id": 15,
-        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056",
+        "img": pic16,
         "category": "unsaturated-polyster-resin"
     },
     {
@@ -222,26 +252,29 @@ const data=[
             "Blister resistance"
         ],
         "id": 16,
-        "img": "https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056",
+        "img": pic17,
         "category": "unsaturated-polyster-resin"
     },
     {
         "title": "Cobalt Octoate 6%",
         "desc": "Cobalt octoate 6% is an abbreviation for the compounds cobalt napthenate and cobalt octoate 6%. These compounds are promotors or accelerator used in curing polyster resin with methyl ethyl ketone peroxide (MEKP) type catalysts. These promotors are also called accelerators. The purpose of the promoters is to speed up the curing reaction of polyster resin and allow them to cure at room temperature. The colbalt based promoter helps the catalyst to start the chemical reaction between the resin and styrene monomer and form a cured solid. cobalt octoate 6%  can be identified with deep purple color . cobalt octoate 6% is a blush violet liquid that has a low viscosity and functions as the most active function drier.",
         "category": "cobalt-octoate",
-        "id": 17
+        "id": 17,
+        "img": pic18
     },
     {
         "title": "Cobalt Octoate 4%",
         "desc": "Cobalt octoate 4% is an abbreviation for the compounds cobalt naphthenate and cobalt octoate 4%. These compounds are promotors or accelerator used in curing polyester resin with methyl ethyl ketone peroxide (MEKP) type catalysts. These promotors are also called accelerators. The purpose of the promoters is to speed up the curing reaction of polyester resin and allow them to cure at room temperature. The cobalt based promoter helps the catalyst to start the chemical reaction between the resin and styrene monomer and form a cured solid. cobalt octoate 6%  can be identified with deep purple colour . cobalt octoate 4% is a blush violet liquid that has a low viscosity and functions as the most active function drier.",
         "category": "cobalt-octoate",
-        "id": 18
+        "id": 18,
+        "img": pic19
     },
     {
         "title": "Cobalt Octoate 2%",
         "desc": "Cobalt Octoate is a Cobalt source that is soluble in organic solvents as an organometallic compound (also known as metalorganic, organo-inorganic and metalloid-organic compounds). Cobalt Octoate is commonly used in various catalysts and catalytic reagents for organic synthesis. It is generally immediately available in most volumes. Ultra-high purity and high purity forms may be considered. Cobalt Octoate is one of numerous organo-metallic compounds (also known as metalorganic, organo-inorganic and metalloid-organic compounds) sold by American Elements under the trade name AE Organo-Metallics™ for uses requiring non-aqueous solubility such as recent solar energy and water treatment applications. Similar results can sometimes also be achieved with Nanoparticles and by thin film deposition.",
         "category": "cobalt-octoate",
-        "id": 19
+        "id": 19,
+        "img": pic20
     },
     {
         "title": "300 EMULSION BONDED CHOPPED STRAND MAT",
@@ -254,7 +287,8 @@ const data=[
             "Good bonding with low resin demand provides excellent laminate properties as demonstrated with the Lloyds/dnv certifications"
         ],
         "category": "fibre-glass",
-        "id": 20
+        "id": 20,
+        "img": pic21
     },
     {
         "title": "450 EMULSION BONDED CHOPPED STRAND MAT",
@@ -267,7 +301,8 @@ const data=[
             "Good bonding with low resin demand provides excellent laminate properties as demonstrated with the Lloyds/dnv certifications"
         ],
         "category": "fibre-glass",
-        "id": 21
+        "id": 21,
+        "img": pic22
     },
     {
         "title": "225 EMULSION BONDED CHOPPED STRAND MAT",
@@ -280,7 +315,8 @@ const data=[
             "Good bonding with low resin demand provides excellent laminate properties as demonstrated with the Lloyds/dnv certifications"
         ],
         "category": "fibre-glass",
-        "id": 22
+        "id": 22,
+        "img": pic23
     },
     {
         "title": "300 POWDER BONDED CHOPPED STRAND MAT",
@@ -293,7 +329,8 @@ const data=[
             "Good bonding with low resin demand provides excellent laminate properties as demonstrated with the Lloyds/dnv certifications"
         ],
         "category": "fibre-glass",
-        "id": 23
+        "id": 23,
+        "img": pic24
     },
     {
         "title": "450 POWDER BONDED CHOPPED STRAND MAT",
@@ -306,25 +343,29 @@ const data=[
             "Good bonding with low resin demand provides excellent laminate properties as demonstrated with the Lloyds/dnv certifications"
         ],
         "category": "fibre-glass",
-        "id": 24
+        "id": 24,
+        "img": pic25
     },
     {
         "title": "WR Roving",
         "desc": "WR glass combines the excellent mechanical and electrical properties of traditional E-Glass with the acid corrosion resistance of E-CR Glass. WR glass satisfies the requirements and description of both E-Glass and E-CR Glass according to ISO 2078 and ASTM D578. WR is composed of direct rovings woven into a fabric or tape. The input rovings are designed to give controlled wet-out and excellent laminate properties. The construction gives bi-directional (0°/90°) reinforcement and the strength of continuous filaments. Woven Roving Fabrics are designed to be compatible with multiple resin systems, and can be customized to meet specific product requirement.",
         "category": "fibre-glass",
-        "id": 25
+        "id": 25,
+        "img": pic26
     },
     {
         "title": "Styrene monomer",
         "desc": "Styrene monomer is an industrial chemical derived from petroleum or natural gas by-products and which, under normal conditions, is a clear, colourless liquid. It has been synthetically produced for more than 70 years – in 2013 global demand was over 27 million tonnes - but it is also naturally occurring in a number of common foods.",
         "category": "Styrene monomer",
-        "id": 26
+        "id": 26,
+        "img": pic27
     },
     {
         "title": "MEKP",
         "desc": "Methyl ethyl ketone peroxide (MEKP) is an organic peroxide with the formula [(CH3)(C2H5)C(O2H)]2O2. MEKP is a colourless oily liquid. It is widely used in vulcanization (crosslinking) of polymers. It is derived from the reaction of methyl ethyl ketone and hydrogen peroxide under acidic conditions. Several products result from this reaction including a cyclic dimer. The linear dimer, the topic of this article, is the most prevalent and this is the form that is typically quoted in the commercially available material. Solutions of 30 to 40% MEKP are used in industry and by hobbyists as catalyst to initiate the crosslinking of unsaturated polyester resins used in fiberglass, and casting.",
         "category": "mekp",
-        "id": 27
+        "id": 27,
+        "img": pic28
     }
 ]
 export default data;

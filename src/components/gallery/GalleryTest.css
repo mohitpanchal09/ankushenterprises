@@ -3,3 +3,33 @@
     width: 80vw!important;
     margin:20px auto;
 }
+.gallery-item {
+    position: relative;
+  }
+  
+  .image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .image {
+    width: 100%;
+    display: block;
+  }
+  
+  .image-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    /* background-color: rgba(207, 34, 34, 0.7); */
+    text-align: center;
+    color: rgb(55, 54, 54);
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  

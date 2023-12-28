@@ -1,7 +1,7 @@
 import React from "react";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import "./GalleryTest.css";
-import pic23 from "../../assets/industries-images/pic23.jpg";
+import pic1 from "../../assets/industries-images/pic1.jpg";
 import pic2 from "../../assets/industries-images/pic2.jpg";
 import pic3 from "../../assets/industries-images/pic3.jpg";
 import pic4 from "../../assets/industries-images/pic4.jpg";
@@ -25,39 +25,64 @@ import pic21 from "../../assets/industries-images/pic21.jpg";
 import pic22 from "../../assets/industries-images/pic22.jpg";
 
 export default function GalleryTest() {
-  const images = [
-    pic2,
+  const arr = [
+    { title: "FIBER ROOFLITE INDUSTRY", img: pic1 },
 
-    pic4,
-    pic5,
-    pic6,
-    pic9,
-    pic10,
-    pic11,
-    pic12,
-    pic13,
-    pic14,
-    pic15,
-    pic16,
-    pic17,
-    pic18,
-    pic19,
-    pic20,
-    pic21,
-    pic22,
-    pic3,
+    { title: "DOOR LAMINATION INDUSTRY", img: pic2 },
+
+    { title: "MANHOLE", img: pic3 },
+
+    { title: "ENGIREED STONE", img: pic4 },
+    { title: "FIBER COOLER INDUSTRY", img: pic5 },
+
+    { title: "BUTTON INDUSTRY", img: pic6 },
+
+    { title: "PULTRUSION INDUSTRY", img: pic7 },
+
+    { title: "STATUE INDUSTRY", img: pic8 },
+
+    { title: "COOLING TOWER", img: pic9 },
+
+    { title: "AUTOMOBILE", img: pic10 },
+
+    { title: "CHEMICAL", img: pic11 },
+
+    { title: "TRANSPORT", img: pic12 },
+
+    { title: "Electrical parts manufacturing ", img: pic13 },
+
+    { title: "Filament winding industry", img: pic14 },
+
+    { title: "Electric encapsulation industry", img: pic15 },
+
+    { title: "MARBLE INDUSTRY", img: pic16 },
+    // pic17,
+    { title: "WINDMILL INDUSTRY", img: pic18 },
+
+    { title: " Building and construction", img: pic19 },
+
+    { title: "Marine", img: pic20 },
+
+    { title: "Grating", img: pic21 },
+
+    { title: "Chemical industry", img: pic22 },
   ];
 
   return (
     <>
       <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
         <Masonry columnsCount={3} gutter="10px" className="gallery-wrapper">
-          {images.map((image, i) => (
-            <img
-              key={i}
-              src={image}
-              style={{ width: "100%", display: "block", borderRadius: "10px" }}
-            />
+          {arr.map((item, i) => (
+            <div key={i} className="gallery-item">
+              <div className="image-container">
+                <img
+                  src={item.img}
+                  alt={`Industry ${i + 1}`}
+                  className="image"
+                />
+                <div className="image-text">{item.title}</div>
+              </div>
+            </div>
           ))}
         </Masonry>
       </ResponsiveMasonry>

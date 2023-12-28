@@ -14,7 +14,7 @@ export default function MoreProducts() {
     desktop: { breakpoint: { max: 3100, min: 1000 }, items: 4 },
     tablet: { breakpoint: { max: 1024, min: 826 }, items: 3 },
     mobile: { breakpoint: { max: 826, min: 600 }, items: 2 },
-    mobile: { breakpoint: { max: 600, min: 0 }, items: 1 },
+    mobile2: { breakpoint: { max: 600, min: 0 }, items: 1 },
   };
   useEffect(() => {
     const generateRandomProducts = () => {
@@ -41,7 +41,10 @@ export default function MoreProducts() {
             <img src={item.img} alt="" />
             <p>{item.title}</p>
             <div className="buttons">
-              <button className="btn-1">View Product</button>
+              <Link to={`/product/${item.id}`}>
+                {" "}
+                <button className="btn-1">View Product</button>
+              </Link>
               <Link to="/contact-us" style={{ textDecoration: "none" }}>
                 <button className="btn-2">Enquiry Now</button>
               </Link>

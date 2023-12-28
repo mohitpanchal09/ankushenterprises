@@ -35,9 +35,9 @@ export default function Navbar({ onSelectCategory }) {
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle bg-danger text-white toggle-button"
-                  href="#"
+                  // href="#"
                   role="button"
-                  data-bs-toggle="dropdown"
+                  // data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
                   All Categories

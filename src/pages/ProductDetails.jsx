@@ -20,10 +20,7 @@ export default function ProductDetails() {
       <Navbar />
       <div className="product-details-wrapper">
         <div className="product-left">
-          <img
-            src="https://media.discordapp.net/attachments/1134172030699323465/1185941735457697913/image.png?ex=6591714f&is=657efc4f&hm=4e97ae9d5e712d0dd21673db2d11498c7a7e6a619c5732ad2763728680c7a69a&=&format=webp&quality=lossless&width=1056&height=1056"
-            alt=""
-          />
+          <img src={prd.img} alt="" />
         </div>
         <div className="product-right">
           <h1 className="product-title">

@@ -1,24 +1,69 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Unsaturated.css";
 import MultiCrousel from "../multicrousel/MultiCrousel";
+
 export default function Unsaturated() {
+  const [establishedCount, setEstablishedCount] = useState(0);
+  const [resinsGradesCount, setResinsGradesCount] = useState(0);
+  const [productionCapacityCount, setProductionCapacityCount] = useState(0);
+  const [industriesReservedCount, setIndustriesReservedCount] = useState(0);
+
+  useEffect(() => {
+    const establishInterval = setInterval(() => {
+      setEstablishedCount((prevCount) => prevCount + 50);
+    }, 50);
+
+    const gradesInterval = setInterval(() => {
+      setResinsGradesCount((prevCount) => prevCount + 1);
+    }, 50);
+
+    const productionInterval = setInterval(() => {
+      setProductionCapacityCount((prevCount) => prevCount + 1);
+    }, 50);
+
+    const reservedInterval = setInterval(() => {
+      setIndustriesReservedCount((prevCount) => prevCount + 1);
+    }, 50);
+
+    // Clear the intervals after the counts reach their final values
+    if (establishedCount >= 1971) {
+      setEstablishedCount(1971);
+      clearInterval(establishInterval);
+    }
+    if (resinsGradesCount === 50) clearInterval(gradesInterval);
+    if (productionCapacityCount === 25) {
+      // setProductionCapacityCount("25K MT");
+      clearInterval(productionInterval);
+    }
+    if (industriesReservedCount === 10) clearInterval(reservedInterval);
+
+    return () => {
+      clearInterval(establishInterval);
+      clearInterval(gradesInterval);
+      clearInterval(productionInterval);
+      clearInterval(reservedInterval);
+    };
+  }, [
+    establishedCount,
+    resinsGradesCount,
+    productionCapacityCount,
+    industriesReservedCount,
+  ]);
+
   return (
     <div className="unsaturated-wrapper">
       <div className="featured">
         <div className="part-1">
-          <h1>1971</h1>
+          <h1>{establishedCount}</h1>
           <p>Year Established</p>
         </div>
         <div className="part-2">
           <div className="part2-01">
             <div
               className="part-1"
-              style={{
-                backgroundColor: "#fff",
-                color: "red",
-              }}
+              style={{ backgroundColor: "#fff", color: "red" }}
             >
-              <h1>50+</h1>
+              <h1>{resinsGradesCount}</h1>
               <p>Resins Grades</p>
             </div>
           </div>
@@ -28,7 +73,7 @@ export default function Unsaturated() {
               className="part-1"
               style={{ backgroundColor: "#fff", color: "red" }}
             >
-              <h1>25k MT</h1>
+              <h1>{productionCapacityCount}</h1>
               <p>Production Capacity</p>
             </div>
           </div>
@@ -42,7 +87,7 @@ export default function Unsaturated() {
                 borderBottomRightRadius: "130px",
               }}
             >
-              <h1>10+</h1>
+              <h1>{industriesReservedCount}</h1>
               <p>Industries Reserved</p>
             </div>
           </div>
