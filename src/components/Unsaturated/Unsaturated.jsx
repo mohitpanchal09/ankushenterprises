@@ -30,12 +30,18 @@ export default function Unsaturated() {
       setEstablishedCount(1971);
       clearInterval(establishInterval);
     }
-    if (resinsGradesCount === 50) clearInterval(gradesInterval);
-    if (productionCapacityCount === 25) {
-      // setProductionCapacityCount("25K MT");
+    if (resinsGradesCount === 50 || resinsGradesCount === "50+") {
+      setResinsGradesCount("50+");
+      clearInterval(gradesInterval);
+    }
+    if (productionCapacityCount == 25 || productionCapacityCount == "25K MT") {
+      setProductionCapacityCount("25K MT");
       clearInterval(productionInterval);
     }
-    if (industriesReservedCount === 10) clearInterval(reservedInterval);
+    if (industriesReservedCount === 10 || industriesReservedCount === "10+") {
+      setIndustriesReservedCount("10+");
+      clearInterval(reservedInterval);
+    }
 
     return () => {
       clearInterval(establishInterval);
