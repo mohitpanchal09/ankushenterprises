@@ -29,30 +29,49 @@
     
 }
 .slick-card01 img{
-    height: 220px;
-    width: 220px;
+    height: 250px;
+    width: 250px;
     border-radius: 14px;
+    filter: brightness(60%);
 
+}
+.slick-card01 img:hover{
+    height: 250px;
+    width: 250px;
+    border-radius: 14px;
+    filter: brightness(100%);
 
 }
 
-
 .red-bg{
     position: relative;
-    background-color: red;
+    /* background-color: red; */
     height: 80px;
-    width: 220px;
+    width: 250px;
     bottom: 80px;
     border-bottom-left-radius: 14px;
     border-bottom-right-radius: 14px;
-    opacity: 0.7;
-    background: linear-gradient(to bottom, rgba(255, 200, 0, 0), rgba(255, 0, 0, 1));
+    /* opacity: 0.7; */
+    /* background: linear-gradient(to bottom, rgba(255, 200, 0, 0), rgba(255, 0, 0, 1)); */
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
+    
     font-weight: 700;
+    flex-direction: column;
+}
+.popular-products-button{
+    display: flex;
+    gap: 10px;padding: 10px;
 
+}
+.popular-products-button>button{
+    background-color: white;
+   border-radius: 30px ;
+   border: none;
+   font-size: 12px;
+    padding: 5px;
 }
 .slick-card-container{
     display: flex;
@@ -76,8 +95,8 @@ margin-bottom: -80px;
         width: 100vw;
     }
     .slick-card01 img{
-        height: 170px;
-        width: 170px;
+        /* height: 200px;
+        width: 200px; */
         border-radius: 14px;
     
     
@@ -85,7 +104,7 @@ margin-bottom: -80px;
     .red-bg{
         
        
-        width: 170px;
+        /* width: 170px; */
        
     
     }
@@ -93,27 +112,27 @@ margin-bottom: -80px;
 }
 @media screen and (max-width:420px) {
     .slick-card01 img{
-        height: 150px;
-        width: 150px;
+        /* height: 150px;
+        width: 150px; */
         border-radius: 14px;
     
     
     }
     .red-bg{
-        width: 150px;
+        /* width: 150px; */
     }
     
 }
 @media screen and (max-width:375px) {
     .slick-card01 img{
-        height: 130px;
-        width: 130px;
+        /* height: 130px;
+        width: 130px; */
         border-radius: 14px;
     
     
     }
     .red-bg{
-        width: 130px;
+        /* width: 130px; */
     }
     
 }
