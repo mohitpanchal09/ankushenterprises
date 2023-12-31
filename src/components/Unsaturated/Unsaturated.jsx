@@ -26,8 +26,8 @@ export default function Unsaturated() {
     }, 50);
 
     // Clear the intervals after the counts reach their final values
-    if (establishedCount >= 1971) {
-      setEstablishedCount(1971);
+    if (establishedCount >= 2004) {
+      setEstablishedCount(2004);
       clearInterval(establishInterval);
     }
     if (resinsGradesCount === 50 || resinsGradesCount === "50+") {
@@ -38,8 +38,8 @@ export default function Unsaturated() {
       setProductionCapacityCount("25K MT");
       clearInterval(productionInterval);
     }
-    if (industriesReservedCount === 10 || industriesReservedCount === "10+") {
-      setIndustriesReservedCount("10+");
+    if (industriesReservedCount === 20 || industriesReservedCount === "20+") {
+      setIndustriesReservedCount("20+");
       clearInterval(reservedInterval);
     }
 
@@ -77,10 +77,10 @@ export default function Unsaturated() {
           <div className="part2-01 ">
             <div
               className="part-1"
-              style={{ backgroundColor: "#fff", color: "red" }}
+              style={{ borderRadius: "0", padding: "0 10px" }}
             >
               <h1>{productionCapacityCount}</h1>
-              <p>Production Capacity</p>
+              <p>100% customer satisfaction</p>
             </div>
           </div>
           <div className="part2-01">

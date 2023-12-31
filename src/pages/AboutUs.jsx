@@ -16,24 +16,34 @@ export default function AboutUs() {
     <>
       <Navbar />
       <AboutUsFirst />
-      <div className="why-wrapper about-us-bg" style={{ height: "100vh" }}>
+      <div className="about-us-bg" style={{ padding: "100px 0" }}>
         <div className="why-3">
-          <div className="why-1">
-            <img src={chemicals} alt="" />
-          </div>
+          <div className="why-1">{/* <img src={chemicals} alt="" /> */}</div>
           <div className="why-2">
             <h1>
-              Quality is Our <span className="signature">Signaure</span>{" "}
+              MISSION :
+              <span className="signature">
+                &nbsp; Advancing Chemistry for a Sustainable Future
+              </span>
             </h1>
             <br />
             <p>
-              At Ankush Enterprises, quality isn't just a term; it's our
-              signature. We've diligently sourced the finest raw materials,
-              established rigorous quality control standards, and collaborated
-              with top-notch manufacturers to ensure that our customers receive
-              only the best.
+              "Driven by a commitment to catalyzing innovation and molecular
+              precision, our mission is to synthesize transformative chemical
+              solutions that redefine industry standards. By leveraging our
+              expertise in molecular engineering and chemical synthesis, we aim
+              to pioneer sustainable formulations, fostering a safer, cleaner,
+              and more efficient world. We relentlessly pursue excellence in
+              chemical design, leveraging cutting-edge technologies to engineer
+              compounds that empower industries, enhance lives, and propel the
+              frontier of scientific discovery." Our mission at Ankush
+              Enterprises is to provide reliable and superior-quality chemicals
+              that meet the evolving needs of our customers. We aim to be a
+              preferred supplier, delivering innovative solutions and
+              exceptional service to support our clients' success and contribute
+              to their growth.
             </p>
-            <div className="why-2-inner">
+            {/* <div className="why-2-inner" style={{ display: "none" }}>
               <div className="icon-container">
                 <span className="grid-symbol">
                   <BiLeaf />
@@ -88,7 +98,7 @@ export default function AboutUs() {
                   <p className="icon-sub-text">100% healthy & Fresh food.</p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

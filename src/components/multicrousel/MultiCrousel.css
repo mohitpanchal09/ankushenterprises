@@ -1,6 +1,8 @@
 .testimonial{
 display: flex;
 justify-content: center;
+align-items: center;
+height: 300px;
 }
 .inner-testimonial{
     height: 220px;
@@ -15,7 +17,16 @@ justify-content: center;
 .react-multiple-carousel__arrow:hover{
     background-color: #b20813;
 }
-
+.inner-testimonial > img {
+    cursor: pointer;
+    transition: border 0.5s, transform 0.5s; /* Apply transition to both properties */
+    scale: 1; /* Set the initial scale to 1 */
+  }
+  
+  .inner-testimonial > img:hover {
+    border: 2px solid #ed1d2b;
+    transform: scale(1.1);
+  }
 @media screen and (max-width:483px) {
     .inner-testimonial{
         height: 150px;

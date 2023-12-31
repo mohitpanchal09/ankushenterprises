@@ -21,6 +21,7 @@
     display: block;
     /* filter: contrast(70%); */
     filter: brightness(60%);
+    transition:  0.5s, transform 0.5s;
   }
   .image:hover {
     cursor: pointer;

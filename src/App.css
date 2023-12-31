@@ -1,4 +1,6 @@
-
+*{
+    overflow: hidden;
+}
 .bg-color{
     background-color: #ED1D2B;
     width: 264px;

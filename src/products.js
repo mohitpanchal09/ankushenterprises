@@ -1,6 +1,6 @@
 import pic1 from '../src/assets/product-images/gelcoat.png'
 import pic2 from '../src/assets/product-images/SMCDMCRESIN.jpg'
-import pic3 from '../src/assets/product-images/PULTRUSIONRESIN.jpg'
+import pic3 from '../src/assets/industries-images/pultrusion.avif'
 import pic4 from '../src/assets/product-images/GP-FRRESIN.png'
 import pic5 from '../src/assets/product-images/ISOPTHALICRESIN.jpg' 
 
@@ -8,7 +8,7 @@ import pic6 from '../src/assets/product-images/ROOFINGSHEETGRADERESIN.jpg'
 import pic7 from '../src/assets/product-images/gpresin.jpg'
 import pic8 from '../src/assets/product-images/statuegrade.jpg'
 import pic9 from '../src/assets/product-images/Doorlaminationgraderesin.jpg'
-const pic10='https://media.discordapp.net/attachments/1134172030699323465/1185832808208408616/image.png?ex=65910bdd&is=657e96dd&hm=9976d6a26d1505d544859967890612acc0c9cc50ed62733fc4b50d2ea9a21d8a&=&format=webp&quality=lossless&width=1126&height=1056'
+import pic10 from '../src/assets/product-images/custom.jpg'
 import pic11 from '../src/assets/industries-images/pic5.jpg'
 import pic12 from '../src/assets/product-images/buttongraderesin.jpg'
 import pic13 from '../src/assets/product-images/CORROSIVERESISTANTRESIN.jpg'
@@ -356,7 +356,7 @@ const data=[
     {
         "title": "Styrene monomer",
         "desc": "Styrene monomer is an industrial chemical derived from petroleum or natural gas by-products and which, under normal conditions, is a clear, colourless liquid. It has been synthetically produced for more than 70 years – in 2013 global demand was over 27 million tonnes - but it is also naturally occurring in a number of common foods.",
-        "category": "Styrene monomer",
+        "category": "styrene-monomer",
         "id": 26,
         "img": pic27
     },

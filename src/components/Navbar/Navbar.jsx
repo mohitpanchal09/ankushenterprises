@@ -74,7 +74,10 @@ export default function Navbar({ onSelectCategory }) {
                       </a>
                     </li>
                   </Link>
-                  <Link to="/stryne-monomer" style={{ textDecoration: "none" }}>
+                  <Link
+                    to="/styrene-monomer"
+                    style={{ textDecoration: "none" }}
+                  >
                     <li>
                       <a class="dropdown-item" href="#">
                         STYRENE MONOMER

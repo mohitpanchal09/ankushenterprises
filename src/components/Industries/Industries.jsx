@@ -2,10 +2,10 @@ import React from "react";
 import "./Industries.css";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import grid1 from "../../assets/grid1.webp";
-import grid2 from "../../assets/grid2.webp";
-import grid3 from "../../assets/grid3.webp";
-import grid4 from "../../assets/grid4.webp";
+import grid1 from "../../assets/industries-images/pic10.jpg";
+import grid2 from "../../assets/industries-images/pic11.jpg";
+import grid3 from "../../assets/industries-images/pic12.jpg";
+import grid4 from "../../assets/industries-images/pic14.jpg";
 
 export default function Industries() {
   const [index, setIndex] = useState(0);

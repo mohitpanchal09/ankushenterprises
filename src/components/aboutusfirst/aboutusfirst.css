@@ -1,3 +1,8 @@
+.about-us-bg{
+    background-image:linear-gradient(to right, transparent, white), url('../../assets/about-us-bg.jpg');
+    background-size: cover;
+
+}
 .about-us-container{
     margin-top: 75px;
     padding: 20px 0;
@@ -81,4 +86,5 @@ margin: 0 20px;
         font-size: 30px;
       line-height: 35px;
         }
+        
 }

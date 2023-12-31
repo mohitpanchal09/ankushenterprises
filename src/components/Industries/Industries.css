@@ -58,6 +58,7 @@ font-weight: 500;
   .column img {
     margin-top: 8px;
     vertical-align: middle;
+    
     width: 100%;
     height: fit-content;
   }
@@ -72,23 +73,36 @@ display: flex;
 .column1{
   flex: 3;
   margin: 5px;
+  border-radius: 10px;
+  
 }
 .column2{
   flex: 2;
   margin: 5px;
+  border-radius: 10px;
 
 }
 .column3{
   flex: 1.5;
+  border-radius: 10px;
   margin: 5px;
+
+}
+.column1 img{
+  
+  border-radius: 10px;
 
 }
 
 .column2 img{
-  height: 48%;
+  height: 49%;
+  border-radius: 10px;
+
 }
 .column3 img{
   height: 100%;
+  border-radius: 10px;
+
 }
 
   /* Responsive layout - makes a two column-layout instead of four columns */

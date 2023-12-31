@@ -10,7 +10,7 @@ import Industries from "../components/Industries/Industries";
 
 export default function Home() {
   return (
-    <>
+    <div style={{ overflow: "hidden" }}>
       <Navbar />
       <Welcome />
       <Unsaturated />
@@ -20,6 +20,6 @@ export default function Home() {
       <Why />
 
       <Footer />
-    </>
+    </div>
   );
 }
