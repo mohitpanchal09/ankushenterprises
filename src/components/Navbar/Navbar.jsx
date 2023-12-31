@@ -1,12 +1,12 @@
 import React from "react";
 import "./Navbar.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import logo from "../../assets/logo1.webp";
 export default function Navbar({ onSelectCategory }) {
   return (
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid justify-content-around">
-        <Link to="/" style={{ textDecoration: "none" }}>
+        <NavLink to="/" style={{ textDecoration: "none" }}>
           <a class="navbar-brand" href="#">
             <img
               src={logo}
@@ -17,7 +17,7 @@ export default function Navbar({ onSelectCategory }) {
               className="ankush-logo"
             />
           </a>
-        </Link>
+        </NavLink>
         <button
           class="navbar-toggler"
           type="button"
@@ -43,7 +43,7 @@ export default function Navbar({ onSelectCategory }) {
                   All Categories
                 </a>
                 <ul class="dropdown-menu">
-                  <Link
+                  <NavLink
                     to="/unsaturated-polyster-resin"
                     style={{ textDecoration: "none" }}
                   >
@@ -52,29 +52,32 @@ export default function Navbar({ onSelectCategory }) {
                         UNSATURATED POLYSTER RESIN
                       </a>
                     </li>
-                  </Link>
-                  <Link to="/fibre-glass" style={{ textDecoration: "none" }}>
+                  </NavLink>
+                  <NavLink to="/fibre-glass" style={{ textDecoration: "none" }}>
                     <li>
                       <a class="dropdown-item" href="#">
                         FIBER GLASS
                       </a>
                     </li>
-                  </Link>
-                  <Link to="/cobalt-octoate" style={{ textDecoration: "none" }}>
+                  </NavLink>
+                  <NavLink
+                    to="/cobalt-octoate"
+                    style={{ textDecoration: "none" }}
+                  >
                     <li>
                       <a class="dropdown-item" href="#">
                         COBALT OCTOATE
                       </a>
                     </li>
-                  </Link>
-                  <Link to="/mekp" style={{ textDecoration: "none" }}>
+                  </NavLink>
+                  <NavLink to="/mekp" style={{ textDecoration: "none" }}>
                     <li>
                       <a class="dropdown-item" href="#">
                         M.E.K.P
                       </a>
                     </li>
-                  </Link>
-                  <Link
+                  </NavLink>
+                  <NavLink
                     to="/styrene-monomer"
                     style={{ textDecoration: "none" }}
                   >
@@ -83,31 +86,47 @@ export default function Navbar({ onSelectCategory }) {
                         STYRENE MONOMER
                       </a>
                     </li>
-                  </Link>
+                  </NavLink>
                 </ul>
               </li>
-              <Link to="/" style={{ textDecoration: "none" }}>
+              <NavLink
+                to="/"
+                style={{ textDecoration: "none" }}
+                className={({ isActive }) => (isActive ? "active" : "inactive")}
+              >
                 <li className="nav-item" style={{ marginLeft: "16px" }}>
                   <a className="nav-link" href="#">
                     Home
                   </a>
                 </li>
-              </Link>
-              <Link to="/products" style={{ textDecoration: "none" }}>
+              </NavLink>
+              <NavLink
+                to="/products"
+                style={{ textDecoration: "none" }}
+                className={({ isActive }) => (isActive ? "active" : "inactive")}
+              >
                 <li className="nav-item" style={{ marginLeft: "16px" }}>
                   <a className="nav-link" href="#">
-                    Products
+                    products
                   </a>
                 </li>
-              </Link>
-              <Link to="/industries" style={{ textDecoration: "none" }}>
+              </NavLink>
+              <NavLink
+                to="/industries"
+                style={{ textDecoration: "none" }}
+                className={({ isActive }) => (isActive ? "active" : "inactive")}
+              >
                 <li className="nav-item" style={{ marginLeft: "16px" }}>
                   <a className="nav-link" href="#">
                     Industries
                   </a>
                 </li>
-              </Link>
-              <Link to="/about-us" style={{ textDecoration: "none" }}>
+              </NavLink>
+              <NavLink
+                to="/about-us"
+                style={{ textDecoration: "none" }}
+                className={({ isActive }) => (isActive ? "active" : "inactive")}
+              >
                 <li
                   className="nav-item"
                   style={{ marginLeft: "16px", textDecoration: "none" }}
@@ -116,14 +135,18 @@ export default function Navbar({ onSelectCategory }) {
                     About Us
                   </a>
                 </li>
-              </Link>
-              <Link to="/contact-us" style={{ textDecoration: "none" }}>
+              </NavLink>
+              <NavLink
+                to="/contact-us"
+                style={{ textDecoration: "none" }}
+                className={({ isActive }) => (isActive ? "active" : "inactive")}
+              >
                 <li className="nav-item" style={{ marginLeft: "16px" }}>
                   <a className="nav-link" href="#">
                     Contact Us
                   </a>
                 </li>
-              </Link>
+              </NavLink>
             </ul>
           </div>
         </div>

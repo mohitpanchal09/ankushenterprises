@@ -1,6 +1,7 @@
 .carousel-1-container{
     display: flex;
     justify-content: space-around;
+    gap: 20px;
 }
 .carousel-1-container>img{
     height: 40%;

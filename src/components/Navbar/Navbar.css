@@ -16,6 +16,16 @@
 .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
     display: block;
   }
+  .dropdown-item:hover {
+    background-color: rgb(240, 240, 255) !important; /* Use !important to override Bootstrap styles */
+    color: white; /* Change text color on hover if needed */
+  }
+ 
+.navbar-nav .active >li>a {
+    color: red !important;
+    /* font-weight: bold; */
+  }
+  
 @media screen and (max-width:768px) {
     .ankush-logo{
         height: 40px;

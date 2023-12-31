@@ -1,11 +1,14 @@
 *{
     overflow: hidden;
 }
-.bg-color{
-    background-color: #ED1D2B;
-    width: 264px;
-    padding: 16px 24px;
-}
+.nav a.active {
+    color: #fff;
+    background: #7600dc;
+  }
+  .nav a.inactive {
+    font-style: italic;
+  }
+  
 @media screen  and (max-width:425px){
    
 } 

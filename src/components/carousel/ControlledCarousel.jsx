@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./ControlledCarousel.css";
-import ankushChemicalPlate from "../../assets/ankush-chemical-plate.webp";
+import ankushChemicalPlate from "../../assets/f1.webp";
 import { Link } from "react-router-dom";
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);
