@@ -17,7 +17,7 @@ function ControlledCarousel() {
         <span className="second-text">
           ANKUSH <br /> <p className="enterprises">ENTERPRISES</p>
         </span>
-        <p className="third-text">Your Source for Premium Polyster Reisin</p>
+        <p className="third-text">Your Source for Premium Polyster Resin</p>
         <Link to="/contact-us" style={{ textDecoration: "none" }}>
           {" "}
           <button className="enquiry-button">

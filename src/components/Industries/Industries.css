@@ -104,7 +104,16 @@ display: flex;
   border-radius: 10px;
 
 }
+.images-grid-wrappper img{
+  filter: brightness(60%);
+  transition:  0.5s, transform 0.5s;
+}
 
+
+.images-grid-wrappper img:hover{
+  cursor: pointer;
+  filter: brightness(90%);
+}
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 800px) {
     .column {

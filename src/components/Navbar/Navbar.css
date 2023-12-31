@@ -25,6 +25,8 @@
     color: red !important;
     /* font-weight: bold; */
   }
+
+  
   
 @media screen and (max-width:768px) {
     .ankush-logo{

@@ -67,7 +67,7 @@ export default function Unsaturated() {
           <div className="part2-01">
             <div
               className="part-1"
-              style={{ backgroundColor: "#fff", color: "red" }}
+              style={{ backgroundColor: "#fff", color: "#ED1D2B" }}
             >
               <h1>{resinsGradesCount}</h1>
               <p>Resins Grades</p>
@@ -77,7 +77,7 @@ export default function Unsaturated() {
           <div className="part2-01 ">
             <div
               className="part-1"
-              style={{ borderRadius: "0", padding: "0 10px" }}
+              style={{ backgroundColor: "#fff", color: "#ED1D2B" }}
             >
               <h1>{productionCapacityCount}</h1>
               <p>100% customer satisfaction</p>
