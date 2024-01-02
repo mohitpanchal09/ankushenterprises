@@ -19,23 +19,31 @@ export default function Industries() {
         Industries We <span className="bg-color">Serve</span>
       </h1>
       <p>
-        Over the past 16 years that we have been serving our clients, we have to
+        Over the past 18 years that we have been serving our clients, we have to
         build a strong clientele across 66 countries and across 15 myriad
         industries verticals. We have been projecting stellar performance in
         delivering some of the par excellence and cutting edge digital solutions
         to our clients.
       </p>
       <div className="images-grid-wrappper">
-        <div className="column1">
-          <img src={grid1} alt="" style={{ height: "100%" }} />
+        <div className="column1" style={{ position: "relative" }}>
+          <img src={grid1} alt="" style={{ height: "98%" }} />
+          <div className="image-text">Automobile Industry</div>
         </div>
 
         <div className="column2">
-          <img src={grid2} alt="" />
-          <img src={grid3} alt="" />
+          <div className="" style={{ position: "relative" }}>
+            <img src={grid2} alt="" style={{ height: "50%" }} />
+            <div className="image-text">Chemical Industry</div>
+          </div>
+          <div className="" style={{ position: "relative" }}>
+            <img src={grid3} alt="" style={{ height: "50%" }} />
+            <div className="image-text">Transport Industry</div>
+          </div>
         </div>
-        <div className="column3">
-          <img src={grid4} alt="" />
+        <div className="column3" style={{ position: "relative" }}>
+          <img src={grid4} alt="" style={{ height: "98%" }} />
+          <div className="image-text">Filament Winding Industry</div>
         </div>
       </div>
       <Link to="/industries">

@@ -9,7 +9,7 @@ export default function IndustriesServing() {
           Industries We <span className="bg-color">Serve</span>
         </h1>
         <p>
-          Over the past 16 years that we have been serving our clients, we have
+          Over the past 18 years that we have been serving our clients, we have
           to build a strong clientele across 66 countries and across 15 myriad
           industries verticals. We have been projecting stellar performance in
           delivering some of the par excellence and cutting edge digital

@@ -131,19 +131,20 @@ export default function ContactUsComp() {
             </div>
             <input
               type="text"
-              placeholder="subject"
+              placeholder="requirement"
               id="subject"
               name="subject"
               value={formData.subject}
               onChange={handleChange}
             />
-            <input
+            <textarea
               type="text"
               placeholder="message"
               id="message"
               name="message"
               value={formData.message}
               onChange={handleChange}
+              rows="2"
             />
             <button
               className="enquiry-button"

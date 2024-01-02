@@ -18,7 +18,7 @@ export default function Unsaturated() {
     }, 50);
 
     const productionInterval = setInterval(() => {
-      setProductionCapacityCount((prevCount) => prevCount + 1);
+      setProductionCapacityCount((prevCount) => prevCount + 5);
     }, 50);
 
     const reservedInterval = setInterval(() => {
@@ -26,16 +26,16 @@ export default function Unsaturated() {
     }, 50);
 
     // Clear the intervals after the counts reach their final values
-    if (establishedCount >= 2004) {
-      setEstablishedCount(2004);
+    if (establishedCount >= 2006) {
+      setEstablishedCount(2006);
       clearInterval(establishInterval);
     }
     if (resinsGradesCount === 50 || resinsGradesCount === "50+") {
       setResinsGradesCount("50+");
       clearInterval(gradesInterval);
     }
-    if (productionCapacityCount == 25 || productionCapacityCount == "25K MT") {
-      setProductionCapacityCount("25K MT");
+    if (productionCapacityCount == 100 || productionCapacityCount == "100%") {
+      setProductionCapacityCount("100%");
       clearInterval(productionInterval);
     }
     if (industriesReservedCount === 20 || industriesReservedCount === "20+") {
@@ -80,7 +80,7 @@ export default function Unsaturated() {
               style={{ backgroundColor: "#fff", color: "#ED1D2B" }}
             >
               <h1>{productionCapacityCount}</h1>
-              <p>100% customer satisfaction</p>
+              <p>customer satisfaction</p>
             </div>
           </div>
           <div className="part2-01">

@@ -30,9 +30,9 @@ export default function GalleryTest() {
 
     { title: "DOOR LAMINATION INDUSTRY", img: pic2 },
 
-    { title: "MANHOLE", img: pic3 },
+    { title: "MANHOLE INDUSTRY", img: pic3 },
 
-    { title: "ENGIREED STONE", img: pic4 },
+    { title: "ENGINEERED STONE INDUSTRY", img: pic4 },
     { title: "FIBER COOLER INDUSTRY", img: pic5 },
 
     { title: "BUTTON INDUSTRY", img: pic6 },
@@ -41,29 +41,29 @@ export default function GalleryTest() {
 
     { title: "STATUE INDUSTRY", img: pic8 },
 
-    { title: "COOLING TOWER", img: pic9 },
+    { title: "COOLING TOWER INDUSTRY", img: pic9 },
 
-    { title: "AUTOMOBILE", img: pic10 },
+    { title: "AUTOMOBILE INDUSTRY", img: pic10 },
 
-    { title: "CHEMICAL", img: pic11 },
+    { title: "CHEMICAL INDUSTRY", img: pic11 },
 
-    { title: "TRANSPORT", img: pic12 },
+    { title: "TRANSPORT INDUSTRY", img: pic12 },
 
-    { title: "Electrical parts manufacturing ", img: pic13 },
+    { title: "Electrical parts manufacturing INDUSTRY", img: pic13 },
 
-    { title: "Filament winding industry", img: pic14 },
+    { title: "Filament winding INDUSTRY", img: pic14 },
 
-    { title: "Electric encapsulation industry", img: pic15 },
+    { title: "Electric encapsulation industry ", img: pic15 },
 
     { title: "MARBLE INDUSTRY", img: pic16 },
     // pic17,
     { title: "WINDMILL INDUSTRY", img: pic18 },
 
-    { title: " Building & construction", img: pic19 },
+    { title: " Building & construction INDUSTRY", img: pic19 },
 
-    { title: "Marine", img: pic20 },
+    { title: "Marine INDUSTRY", img: pic20 },
 
-    { title: "Grating", img: pic21 },
+    { title: "Grating INDUSTRY", img: pic21 },
 
     { title: "Chemical industry", img: pic22 },
   ];
