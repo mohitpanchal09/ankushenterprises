@@ -112,7 +112,9 @@ height: 20%;
     margin-top: 50px;
     width: 100vw;
 }
-
+button:disabled{
+    background:var(--Gray-Scale-Light-Gray, #c78a8d) !important;
+}
 @media screen and (max-width:768px) {
     .contact-us-wrapper{
         margin-top: 70px;
