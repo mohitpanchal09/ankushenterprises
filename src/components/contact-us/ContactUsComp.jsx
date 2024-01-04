@@ -5,6 +5,7 @@ import "./ContactUs.css";
 import { CiLocationOn } from "react-icons/ci";
 import { AiOutlineMail } from "react-icons/ai";
 import { LiaPhoneVolumeSolid } from "react-icons/lia";
+import { FaWhatsapp } from "react-icons/fa";
 import map from "../../assets/mapImage.png";
 import emailjs from "@emailjs/browser";
 
@@ -18,6 +19,7 @@ export default function ContactUsComp() {
     email: "",
     subject: "",
     message: "",
+    phone: "",
   });
   const handleChange = (e) => {
     setFormData({
@@ -66,6 +68,7 @@ export default function ContactUsComp() {
       email: "",
       subject: "",
       message: "",
+      phone: "",
     });
   };
 
@@ -78,9 +81,9 @@ export default function ContactUsComp() {
         <div className="contact-left">
           <div className="left-1">
             <p className="contact-symbol">
-              <CiLocationOn />
+              <FaWhatsapp />
             </p>
-            <p>2715 Ash Dr. San Jose, South Dakota 83475</p>
+            <p>+91 9990615104</p>
           </div>
           <div
             className="left-1"
@@ -92,15 +95,15 @@ export default function ContactUsComp() {
             <p className="contact-symbol">
               <AiOutlineMail />
             </p>
-            <p>proxy@gmail.com</p>
+            <p>ankushenterprises001@gmail.com</p>
           </div>
           <div className="left-1">
             <p className="contact-symbol">
               <LiaPhoneVolumeSolid />
             </p>
             <p>
-              (219) 555-0114 <br />
-              (164) 333-0487
+              +91 9990615104
+              {/* (164) 333-0487 */}
             </p>
           </div>
         </div>
@@ -128,7 +131,16 @@ export default function ContactUsComp() {
                 value={formData.email}
                 onChange={handleChange}
               />
+              <input
+                type="phone"
+                placeholder="phone"
+                id="phone"
+                name="phone"
+                value={formData.phone}
+                onChange={handleChange}
+              />
             </div>
+
             <input
               type="text"
               placeholder="requirement"
@@ -137,6 +149,7 @@ export default function ContactUsComp() {
               value={formData.subject}
               onChange={handleChange}
             />
+
             <textarea
               type="text"
               placeholder="message"

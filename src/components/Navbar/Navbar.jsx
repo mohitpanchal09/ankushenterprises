@@ -107,7 +107,7 @@ export default function Navbar({ onSelectCategory }) {
               >
                 <li className="nav-item" style={{ marginLeft: "16px" }}>
                   <a className="nav-link" href="#">
-                    products
+                    Products
                   </a>
                 </li>
               </NavLink>
