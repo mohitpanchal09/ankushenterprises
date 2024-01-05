@@ -31,7 +31,7 @@ import pic28 from '../src/assets/product-images/mekp.jpg'
 const data=[
     {
         "title": "Gel Coat Resin",
-        "desc": "Gel coat resin is a special resin for making the gel coat layer of FRP products. It is a special type of unsaturated polyester resin. It is mainly used on the surface of resin products. It is a continuous thin layer and the  function of the gel coat resin on the surface of the product is to provide a protective layer for the base resin or laminate to improve the weather. It adds some extra shine and finishing to the products. Gelcoat is applied as the first layer on the negative mold. It therefore serves as the base layer. The glass fiber fabric is then laid on top of this and shaped to meet the requirements. Gelcoat not only serves as a base layer but also as an adhesive: it hardens sticky on the side facing the air so that the application of the fiber is straightforward. Gelcoat resin coated surface is glossy after cured. It has good mechanical properties and water resistance and is resistance to mild chemicals and ultra-violet light, thus enhancing the durability of glassfibre reinforced plastics (GRP) products These resins are tailor make to meet the diverse needs of GRP/FRP industry and meeting the requirements of customers interest of improved efficiency and superior performance of finished product.",
+        "desc": "Gel coat resin is a special resin for making the gel coat layer of FRP products. It is a special type of unsaturated polyester resin. It is mainly used on the surface of resin products. It is a continuous thin layer and the  function of the gel coat resin on the surface of the product is to provide a protective layer for the base resin or laminate to improve the weather. It adds some extra shine and finishing to the products. Gelcoat is applied as the first layer on the negative mold. It therefore serves as the base layer. The glass fiber fabric is then laid on top of this and shaped to meet the requirements. Gelcoat not only serves as a base layer but also as an adhesive: it hardens sticky on the side facing the air so that the application of the fiber is straightforward. Gelcoat resin coated surface is glossy after cured. It has good mechanical properties and water resistance and is resistance to mild chemicals and ultra-violet light, thus enhancing the durability of glassfibre reinforced plastics (GRP) products These resins are tailor made to meet the diverse needs of GRP/FRP industry and meeting the requirements of customers interest of improved efficiency and superior performance of finished product.",
         "features": [
             "Good reactivity",
             "High viscous consistency",
@@ -44,7 +44,7 @@ const data=[
     },
     {
         "title": "DMC/ SMC Resin",
-        "desc": "The Sheet Moulding Compound / Dough Moulding Compound Grade is a non- promoted, highly reactive, medium viscosity, high heat distribution, and unsaturated polyester resin. This resin is specially designed for fast line speed sheet moulding impregnation process. It has excellent catalysed stability and excellent glass wet- out characteristics, resulting in good mechanical, electrical properties. It is generally used to For manufacturing of electrical components and special parts for mechanical and electrical appliances. ",
+        "desc": "The Sheet Moulding Compound / Dough Moulding Compound Grade is a non- promoted, highly reactive, medium viscosity, high heat distribution, and unsaturated polyster resin. This resin is specially designed for fast line speed sheet moulding impregnation process. It has excellent catalysed stability and excellent glass wet- out characteristics, resulting in good mechanical, electrical properties. It is generally used to For manufacturing of electrical components and special parts for mechanical and electrical appliances. ",
         "features": [
             "High die electric and mechanical strength ",
             "High temperature withstand capacity",
@@ -112,8 +112,8 @@ const data=[
         "features": [
             "Medium viscosity",
             "Effective heat resistance",
-            "Excellent water resistance",
-            "Clear transparent and medium yellow in color"
+            "Excellent water reistance",
+            "Clear transparent"
         ],
         "id": 6,
         "img": pic7,

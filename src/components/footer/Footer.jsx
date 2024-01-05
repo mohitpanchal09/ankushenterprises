@@ -14,9 +14,9 @@ export default function Footer() {
             style={{ width: "100%", color: "#ffff" }}
             className="footer-list-item"
           >
-            <span>(219) 555-0114</span>
+            <span>(+91) 9990615104</span>
             &nbsp; or &nbsp;
-            <span> Proxy@gmail.com</span>
+            <span>ankushenterprises001@gmail.com</span>
           </li>
         </ul>
         <ul className="con-1">
