@@ -55,7 +55,7 @@ export default function ContactUsComp() {
           },
           (error) => {
             console.error("Error sending email:", error);
-            toast("Error sending your message. Please try again later.", {
+            toast.error("Error sending your message. Please try again later.", {
               position: "top-right",
               autoClose: 5000,
               hideProgressBar: false,
@@ -78,7 +78,7 @@ export default function ContactUsComp() {
         phone: "",
       });
     } else {
-      toast("Fill all the details", {
+      toast.error("Fill all the details", {
         position: "top-right",
         autoClose: 5000,
         hideProgressBar: false,
@@ -86,7 +86,7 @@ export default function ContactUsComp() {
         pauseOnHover: true,
         draggable: true,
         progress: undefined,
-        theme: "dark",
+        theme: "light",
       });
     }
   };
