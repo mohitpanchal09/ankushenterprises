@@ -7,6 +7,7 @@ Certainly! Below is an example of a README file for your Ankush Enterprises webs
 ## Overview
 
 This website is designed to showcase Ankush Enterprises, providing information about the company, its products, and industries it serves. The site is built using React and Vite for a fast and efficient development experience.
+![Ankush Enterprises Website Screenshot](/path/to/screenshot.png)
 
 ## Table of Contents
 
