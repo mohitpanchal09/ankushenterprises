@@ -28,48 +28,67 @@ export default function ContactUsComp() {
     });
   };
   const handleClick = (e) => {
-    e.preventDefault();
-    const form = document.getElementById("yourFormId");
-    setLoading(true);
-    emailjs
-      .sendForm(serviceId, templateId, form, publicKey)
-      .then(
-        (result) => {
-          toast("Your message has been sent", {
-            position: "top-right",
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-            theme: "light",
-          });
-        },
-        (error) => {
-          console.error("Error sending email:", error);
-          toast("Error sending your message. Please try again later.", {
-            position: "top-right",
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-            theme: "light",
-          });
-        }
-      )
-      .finally(() => {
-        setLoading(false);
+    if (
+      formData.name != "" &&
+      formData.email != "" &&
+      formData.subject != "" &&
+      formData.message != "" &&
+      formData.phone != ""
+    ) {
+      e.preventDefault();
+      const form = document.getElementById("yourFormId");
+      setLoading(true);
+      emailjs
+        .sendForm(serviceId, templateId, form, publicKey)
+        .then(
+          (result) => {
+            toast("Your message has been sent", {
+              position: "top-right",
+              autoClose: 5000,
+              hideProgressBar: false,
+              closeOnClick: true,
+              pauseOnHover: true,
+              draggable: true,
+              progress: undefined,
+              theme: "light",
+            });
+          },
+          (error) => {
+            console.error("Error sending email:", error);
+            toast("Error sending your message. Please try again later.", {
+              position: "top-right",
+              autoClose: 5000,
+              hideProgressBar: false,
+              closeOnClick: true,
+              pauseOnHover: true,
+              draggable: true,
+              progress: undefined,
+              theme: "light",
+            });
+          }
+        )
+        .finally(() => {
+          setLoading(false);
+        });
+      setFormData({
+        name: "",
+        email: "",
+        subject: "",
+        message: "",
+        phone: "",
       });
-    setFormData({
-      name: "",
-      email: "",
-      subject: "",
-      message: "",
-      phone: "",
-    });
+    } else {
+      toast("Fill all the details", {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+      });
+    }
   };
 
   return (
@@ -122,7 +141,9 @@ export default function ContactUsComp() {
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
+                required
               />
+
               <input
                 type="email"
                 placeholder="email"
@@ -130,6 +151,7 @@ export default function ContactUsComp() {
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
+                required
               />
               <input
                 type="phone"
@@ -138,6 +160,7 @@ export default function ContactUsComp() {
                 name="phone"
                 value={formData.phone}
                 onChange={handleChange}
+                required
               />
             </div>
 
@@ -148,6 +171,7 @@ export default function ContactUsComp() {
               name="subject"
               value={formData.subject}
               onChange={handleChange}
+              required
             />
 
             <textarea
@@ -158,6 +182,7 @@ export default function ContactUsComp() {
               value={formData.message}
               onChange={handleChange}
               rows="2"
+              required
             />
             <button
               className="enquiry-button"
