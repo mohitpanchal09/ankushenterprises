@@ -1,4 +1,4 @@
-Certainly! Below is an example of a README file for your Ankush Enterprises website built using React and Vite:
+
 
 ---
 
