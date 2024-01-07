@@ -11,6 +11,7 @@ import AboutUsFirst from "../components/aboutusfirst/AboutUsFirst";
 import aboutusesecond from "../assets/aboutusesecond.png";
 import chemicals from "../assets/chemicals.webp";
 import { Link } from "react-router-dom";
+import Newsletter from "../Newsletter";
 export default function AboutUs() {
   return (
     <>
@@ -145,6 +146,7 @@ export default function AboutUs() {
           <img src={aboutusesecond} alt="" />
         </div>
       </div>
+      <Newsletter />
       <Footer />
     </>
   );
